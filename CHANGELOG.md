@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.1.0 (2026-09-15)
+
+**New features:**
+
+- \[MINOR] feat: expose package root entry point (● [9c1ad2e](https://github.com/corejslib/app/commit/9c1ad2e); 👬 zdm)
+
+Compare with the previous release: [v1.0.0...v1.1.0](https://github.com/corejslib/app/compare/v1.0.0...v1.1.0)
+
 ### v1.0.0 (2026-09-15)
 
 **Migration notes:**
