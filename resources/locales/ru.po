@@ -12,47 +12,47 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Search-Path: /lib/**\n"
 
-#: ../../lib/app/components/acl/config.yaml
+#: ../../lib/components/acl/config.yaml
 msgid "Administrator"
 msgstr "Администратор"
 
-#: ../../lib/app/components/api/config.yaml
+#: ../../lib/components/api/config.yaml
 msgid "Confirm your email address"
 msgstr "Подтвердите Ваш электронный адрес"
 
-#: ../../lib/app/components/acl/config.yaml
+#: ../../lib/components/acl/config.yaml
 msgid "Developer"
 msgstr "Разработчик"
 
-#: ../../lib/app/components/api/config.yaml
+#: ../../lib/components/api/config.yaml
 msgid "Email address change"
 msgstr "Изменение адреса электронной почты"
 
-#: ../../lib/app/components/api/config.yaml
+#: ../../lib/components/api/config.yaml
 msgid "New device"
 msgstr "Новое устройство"
 
-#: ../../lib/app/components/api/config.yaml
+#: ../../lib/components/api/config.yaml
 msgid "Password changed"
 msgstr "Пароль изменен"
 
-#: ../../lib/app/components/api/config.yaml
+#: ../../lib/components/api/config.yaml
 msgid "Password reset link"
 msgstr "Ссылка для сброса пароля"
 
-#: ../../lib/app/components/acl/config.yaml
+#: ../../lib/components/acl/config.yaml
 msgid "Project administrator"
 msgstr "Администратор проекта"
 
-#: ../../lib/app/components/acl/config.yaml
+#: ../../lib/components/acl/config.yaml
 msgid "Project developer"
 msgstr "Разработчик проекта"
 
-#: ../../lib/app/components/notifications/config.yaml
+#: ../../lib/components/notifications/config.yaml
 msgid "Security"
 msgstr "Безопасность"
 
-#: ../../lib/app/components/api/config.yaml:1:39
+#: ../../lib/components/api/config.yaml:1:39
 #, javascript-format
 msgid ""
 "Use the following link to change your email address to ${n}:\n"
@@ -71,7 +71,7 @@ msgstr ""
 "\n"
 "Если вы получили это письмо по ошибке, просто проигнорируйте его.\n"
 
-#: ../../lib/app/components/api/config.yaml:1:39
+#: ../../lib/components/api/config.yaml:1:39
 #, javascript-format
 msgid ""
 "Use the following link to confirm your email:\n"
@@ -90,7 +90,7 @@ msgstr ""
 "\n"
 "Если вы получили это письмо по ошибке, просто проигнорируйте его.\n"
 
-#: ../../lib/app/components/api/config.yaml:1:39
+#: ../../lib/components/api/config.yaml:1:39
 #, javascript-format
 msgid ""
 "Use the following link to reset your password:\n"
@@ -109,11 +109,11 @@ msgstr ""
 "\n"
 "Если вы не запрашивали сброс пароля и получили это письмо по ошибке, просто проигнорируйте его.\n"
 
-#: ../../lib/app/components/notifications/config.yaml
+#: ../../lib/components/notifications/config.yaml
 msgid "Various security related notifications"
 msgstr "Различные уведомления, связанные с безопасностью"
 
-#: ../../lib/app/components/api/config.yaml:1:39
+#: ../../lib/components/api/config.yaml:1:39
 #, javascript-format
 msgid ""
 "You just signed in on the new device.\n"
@@ -144,11 +144,11 @@ msgstr ""
 "\n"
 "Если это были не вы, пожалуйста, измените свой пароль и удалите эту сессию из сессий вашей учетной записи.\n"
 
-#: ../../lib/app/components/api/config.yaml
+#: ../../lib/components/api/config.yaml
 msgid "Your email address was changed"
 msgstr "Ваш адрес электронной почты был изменен"
 
-#: ../../lib/app/components/api/config.yaml:1:39
+#: ../../lib/components/api/config.yaml:1:39
 #, javascript-format
 msgid ""
 "Your email address was changed.\n"
@@ -163,7 +163,7 @@ msgstr ""
 "\n"
 "Старый адрес электронной почты: ${n}\n"
 
-#: ../../lib/app/components/api/config.yaml
+#: ../../lib/components/api/config.yaml
 msgid "Your password was just changed."
 msgstr "Ваш пароль был только что изменен."
 
