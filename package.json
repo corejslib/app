@@ -1,6 +1,6 @@
 {
     "name": "@corejslib/app",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Application framework",
     "keywords": [
         "application"

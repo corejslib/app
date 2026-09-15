@@ -1,5 +1,13 @@
 # Changelog
 
+### v0.1.0 (2026-09-15)
+
+**New features:**
+
+- \[MINOR] feat: add browser-compatible constants and permissions exports (● [26f3fca](https://github.com/corejslib/app/commit/26f3fca); 👬 zdm)
+
+Compare with the previous release: [v0.0.1...v0.1.0](https://github.com/corejslib/app/compare/v0.0.1...v0.1.0)
+
 ### v0.0.1 (2026-09-15)
 
 **Bug fixes:**
