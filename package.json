@@ -5,14 +5,14 @@
     "keywords": [
         "application"
     ],
-    "homepage": "https://corejslib.github.io/app-telegram/",
+    "homepage": "https://corejslib.github.io/app/",
     "bugs": {
-        "url": "https://github.com/corejslib/app-telegram/issues",
+        "url": "https://github.com/corejslib/app/issues",
         "email": "root <root@softvisio.net>"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/corejslib/app-telegram.git"
+        "url": "git+https://github.com/corejslib/app.git"
     },
     "license": "ISC",
     "author": "root <root@softvisio.net>",
