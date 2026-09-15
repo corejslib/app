@@ -1,0 +1,39 @@
+{
+    "name": "@corejslib/app",
+    "version": "0.0.0",
+    "description": "Application framework",
+    "keywords": [
+        "application"
+    ],
+    "homepage": "https://corejslib.github.io/app-telegram/",
+    "bugs": {
+        "url": "https://github.com/corejslib/app-telegram/issues",
+        "email": "root <root@softvisio.net>"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/corejslib/app-telegram.git"
+    },
+    "license": "ISC",
+    "author": "root <root@softvisio.net>",
+    "type": "module",
+    "imports": {
+        "#core/*": "@corejslib/core/*",
+        "#lib/*": "./lib/*.js",
+        "#resources/*": "./resources/*"
+    },
+    "exports": {
+        "./*": "./lib/*.js",
+        "./app.yaml": "./lib/app.yaml",
+        "./resources/*": "./resources/*"
+    },
+    "files": [
+        "/bin",
+        "/lib",
+        "/resources",
+        "/src"
+    ],
+    "peerDependencies": {
+        "@corejslib/core": "^8.0.0"
+    }
+}
