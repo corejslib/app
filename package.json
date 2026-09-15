@@ -25,7 +25,15 @@
     "exports": {
         "./*": "./lib/*.js",
         "./app.yaml": "./lib/app.yaml",
-        "./resources/*": "./resources/*"
+        "./resources/*": "./resources/*",
+        "./constants": {
+            "browser": "./lib/_browser/constants.js",
+            "node": "./lib/constants.js"
+        },
+        "./user/permissions": {
+            "browser": "./lib/_browser/user/permissions.js",
+            "node": "./lib/user/permissions.js"
+        }
     },
     "files": [
         "/bin",
