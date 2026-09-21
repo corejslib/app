@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.1.1 (2026-09-21)
+
+**Other changes:**
+
+- chore: update Russian locale strings (● [6ea50b1](https://github.com/corejslib/app/commit/6ea50b1); 👬 zdm)
+
+Compare with the previous release: [v1.1.0...v1.1.1](https://github.com/corejslib/app/compare/v1.1.0...v1.1.1)
+
 ### v1.1.0 (2026-09-15)
 
 **New features:**
