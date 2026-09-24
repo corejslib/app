@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.1.3 (2026-09-24)
+
+**Other changes:**
+
+- chore: update translations (● [0a11183](https://github.com/corejslib/app/commit/0a11183); 👬 zdm)
+
+- chore: update Ukrainian and Russian locale copy (● [201c573](https://github.com/corejslib/app/commit/201c573); 👬 zdm)
+
+- docs: fix wording in email and notification copy (● [262ecbc](https://github.com/corejslib/app/commit/262ecbc); 👬 zdm)
+
+Compare with the previous release: [v1.1.2...v1.1.3](https://github.com/corejslib/app/compare/v1.1.2...v1.1.3)
+
 ### v1.1.2 (2026-09-21)
 
 **Code refactoring:**
