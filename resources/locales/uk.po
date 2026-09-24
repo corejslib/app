@@ -10,7 +10,7 @@ msgstr "Адміністратор"
 
 #: ../../lib/components/api/config.yaml
 msgid "Confirm your email address"
-msgstr "Підтвердіть вашу електронну адресу"
+msgstr "Підтвердіть свою електронну адресу"
 
 #: ../../lib/components/acl/config.yaml
 msgid "Developer"
@@ -18,7 +18,7 @@ msgstr "Розробник"
 
 #: ../../lib/components/api/config.yaml
 msgid "Email address change"
-msgstr "Зміна електронної адреси"
+msgstr "Зміна адреси електронної пошти"
 
 #: ../../lib/components/api/config.yaml
 msgid "New device"
@@ -61,7 +61,7 @@ msgstr ""
 "\n"
 "Це посилання дійсне до ${n}.\n"
 "\n"
-"Якщо ви отримали цей електронний лист помилково, просто проігноруйте його.\n"
+"Якщо ви отримали цей лист помилково, просто проігноруйте його.\n"
 
 #: ../../lib/components/api/config.yaml:1:39
 #, javascript-format
@@ -74,13 +74,13 @@ msgid ""
 "\n"
 "If you received this email by mistake just ignore it.\n"
 msgstr ""
-"Скористайтеся наступним посиланням, щоб підтвердити свою електронну адресу:\n"
+"Скористайтеся наведеним нижче посиланням, щоб підтвердити свою електронну адресу:\n"
 "\n"
 "${n}\n"
 "\n"
 "Це посилання дійсне до ${n}.\n"
 "\n"
-"Якщо ви отримали цей електронний лист помилково, просто проігноруйте його.\n"
+"Якщо ви отримали цей лист помилково, просто проігноруйте його.\n"
 
 #: ../../lib/components/api/config.yaml:1:39
 #, javascript-format
@@ -93,17 +93,17 @@ msgid ""
 "\n"
 "If you didn't ask for password reset and received this email by mistake just ignore it.\n"
 msgstr ""
-"Скористайтеся наступним посиланням, щоб скинути пароль:\n"
+"Скористайтеся наведеним нижче посиланням, щоб скинути пароль:\n"
 "\n"
 "${n}\n"
 "\n"
 "Це посилання дійсне до ${n}.\n"
 "\n"
-"Якщо ви не запитували скидання пароля та отримали цей електронний лист помилково, просто проігноруйте його.\n"
+"Якщо ви не запитували скидання пароля і отримали цей лист помилково, просто проігноруйте його.\n"
 
 #: ../../lib/components/notifications/config.yaml
 msgid "Various security-related notifications"
-msgstr "Різні сповіщення щодо безпеки"
+msgstr "Різноманітні сповіщення, пов’язані з безпекою"
 
 #: ../../lib/components/api/config.yaml:1:39
 #, javascript-format
@@ -122,7 +122,7 @@ msgid ""
 "\n"
 "If it was not you, please, change your password and remove this session from your account sessions.\n"
 msgstr ""
-"Ви щойно ввійшли на новому пристрої.\n"
+"Ви щойно увійшли в систему з нового пристрою.\n"
 "\n"
 "IP-адреса: ${n}\n"
 "\n"
@@ -134,11 +134,11 @@ msgstr ""
 "\n"
 "Агент користувача: ${n}\n"
 "\n"
-"Якщо це були не ви, будь ласка, змініть свій пароль і видаліть цей сеанс із сеансів свого облікового запису.\n"
+"Якщо це були не ви, будь ласка, змініть пароль і видаліть цю сесію зі списку сеансів вашого облікового запису.\n"
 
 #: ../../lib/components/api/config.yaml
 msgid "Your email address was changed"
-msgstr "Вашу адресу електронної пошти було змінено"
+msgstr "Вашу адресу електронної пошти змінено"
 
 #: ../../lib/components/api/config.yaml:1:39
 #, javascript-format
@@ -149,11 +149,11 @@ msgid ""
 "\n"
 "Old email address: ${n}\n"
 msgstr ""
-"Вашу адресу електронної пошти було змінено.\n"
+"Вашу адресу електронної пошти змінено.\n"
 "\n"
-"Нова електронна адреса: ${n}\n"
+"Нова адреса електронної пошти: ${n}\n"
 "\n"
-"Стара електронна адреса: ${n}\n"
+"Стара адреса електронної пошти: ${n}\n"
 
 #: ../../lib/components/api/config.yaml
 msgid "Your password was just changed."

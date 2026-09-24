@@ -26,7 +26,7 @@ msgstr "Новое устройство"
 
 #: ../../lib/components/api/config.yaml
 msgid "Password changed"
-msgstr "Пароль изменен"
+msgstr "Пароль изменён"
 
 #: ../../lib/components/api/config.yaml
 msgid "Password reset link"
@@ -138,7 +138,7 @@ msgstr ""
 
 #: ../../lib/components/api/config.yaml
 msgid "Your email address was changed"
-msgstr "Ваш адрес электронной почты был изменен"
+msgstr "Ваш адрес электронной почты изменён"
 
 #: ../../lib/components/api/config.yaml:1:39
 #, javascript-format
@@ -149,7 +149,7 @@ msgid ""
 "\n"
 "Old email address: ${n}\n"
 msgstr ""
-"Ваш адрес электронной почты был изменен.\n"
+"Ваш адрес электронной почты изменён.\n"
 "\n"
 "Новый адрес электронной почты: ${n}\n"
 "\n"
@@ -157,4 +157,4 @@ msgstr ""
 
 #: ../../lib/components/api/config.yaml
 msgid "Your password was just changed."
-msgstr "Ваш пароль был только что изменен."
+msgstr "Ваш пароль только что изменён."
