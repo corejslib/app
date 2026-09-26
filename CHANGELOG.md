@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.1.4 (2026-09-26)
+
+**Bug fixes:**
+
+- \[PATCH] fix: expose JSON in schema generation contexts (● [c7fc901](https://github.com/corejslib/app/commit/c7fc901); 👬 zdm)
+
+- \[PATCH] fix: stringify user-agent details in sign-in email (● [94d44ce](https://github.com/corejslib/app/commit/94d44ce); 👬 zdm)
+
+Compare with the previous release: [v1.1.3...v1.1.4](https://github.com/corejslib/app/compare/v1.1.3...v1.1.4)
+
 ### v1.1.3 (2026-09-24)
 
 **Other changes:**
