@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.1.5 (2026-09-26)
+
+**Other changes:**
+
+- Revert "fix: expose JSON in schema generation contexts" (● [c2a213f](https://github.com/corejslib/app/commit/c2a213f); 👬 zdm)
+
+    This reverts commit [c7fc901](https://github.com/corejslib/app/commit/c7fc90187fb5efe0ff5eede9a000b7888921ec0f).
+
+Compare with the previous release: [v1.1.4...v1.1.5](https://github.com/corejslib/app/compare/v1.1.4...v1.1.5)
+
 ### v1.1.4 (2026-09-26)
 
 **Bug fixes:**
