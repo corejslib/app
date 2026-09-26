@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.1.6 (2026-09-26)
+
+**Bug fixes:**
+
+- \[PATCH] fix: use correct template rendering methods (● [ae468b3](https://github.com/corejslib/app/commit/ae468b3); 👬 zdm)
+
+Compare with the previous release: [v1.1.5...v1.1.6](https://github.com/corejslib/app/compare/v1.1.5...v1.1.6)
+
 ### v1.1.5 (2026-09-26)
 
 **Other changes:**
