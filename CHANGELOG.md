@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.1.10 (2026-09-27)
+
+**Other changes:**
+
+- chore: update locale source references (● [59e052b](https://github.com/corejslib/app/commit/59e052b); 👬 zdm)
+
+Compare with the previous release: [v1.1.9...v1.1.10](https://github.com/corejslib/app/compare/v1.1.9...v1.1.10)
+
 ### v1.1.9 (2026-09-27)
 
 **Bug fixes:**
