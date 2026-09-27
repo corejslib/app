@@ -44,7 +44,7 @@ msgstr "Розробник проекту"
 msgid "Security"
 msgstr "Безпека"
 
-#: ../../lib/components/api/config.yaml:1:39
+#: ../../lib/components/api/config.yaml:1:40
 #, javascript-format
 msgid ""
 "Use the following link to change your email address to ${n}:\n"
@@ -63,7 +63,7 @@ msgstr ""
 "\n"
 "Якщо ви отримали цей лист помилково, просто проігноруйте його.\n"
 
-#: ../../lib/components/api/config.yaml:1:39
+#: ../../lib/components/api/config.yaml:1:40
 #, javascript-format
 msgid ""
 "Use the following link to confirm your email:\n"
@@ -82,7 +82,7 @@ msgstr ""
 "\n"
 "Якщо ви отримали цей лист помилково, просто проігноруйте його.\n"
 
-#: ../../lib/components/api/config.yaml:1:39
+#: ../../lib/components/api/config.yaml:1:40
 #, javascript-format
 msgid ""
 "Use the following link to reset your password:\n"
@@ -105,7 +105,7 @@ msgstr ""
 msgid "Various security-related notifications"
 msgstr "Різноманітні сповіщення, пов’язані з безпекою"
 
-#: ../../lib/components/api/config.yaml:1:39
+#: ../../lib/components/api/config.yaml:1:40
 #, javascript-format
 msgid ""
 "You just signed in on the new device.\n"
@@ -140,7 +140,7 @@ msgstr ""
 msgid "Your email address was changed"
 msgstr "Вашу адресу електронної пошти змінено"
 
-#: ../../lib/components/api/config.yaml:1:39
+#: ../../lib/components/api/config.yaml:1:40
 #, javascript-format
 msgid ""
 "Your email address was changed.\n"
