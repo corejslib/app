@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.1.9 (2026-09-27)
+
+**Bug fixes:**
+
+- \[PATCH] fix: await locale domain loading during initialization (● [1705246](https://github.com/corejslib/app/commit/1705246); 👬 zdm)
+
+Compare with the previous release: [v1.1.8...v1.1.9](https://github.com/corejslib/app/compare/v1.1.8...v1.1.9)
+
 ### v1.1.8 (2026-09-27)
 
 **Other changes:**
