@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.1.8 (2026-09-27)
+
+**Other changes:**
+
+- Revert "chore: remove .pot" (● [19e7aeb](https://github.com/corejslib/app/commit/19e7aeb); 👬 zdm)
+
+    This reverts commit [96cab21](https://github.com/corejslib/app/commit/96cab215f3284a841cd3b79a880f4a8aba87bf3e).
+
+Compare with the previous release: [v1.1.7...v1.1.8](https://github.com/corejslib/app/compare/v1.1.7...v1.1.8)
+
 ### v1.1.7 (2026-09-27)
 
 **Other changes:**
