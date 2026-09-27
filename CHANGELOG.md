@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.1.7 (2026-09-27)
+
+**Other changes:**
+
+- chore: remove .pot (● [96cab21](https://github.com/corejslib/app/commit/96cab21); 👬 zdm)
+
+Compare with the previous release: [v1.1.6...v1.1.7](https://github.com/corejslib/app/compare/v1.1.6...v1.1.7)
+
 ### v1.1.6 (2026-09-26)
 
 **Bug fixes:**
