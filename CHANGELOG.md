@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.3.0 (2026-10-03)
+
+**New features:**
+
+- \[MINOR] feat: add cluster service discovery for app services (● [8687b74](https://github.com/corejslib/app/commit/8687b74); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: register API services only when their components are present (● [ef22375](https://github.com/corejslib/app/commit/ef22375); 👬 zdm)
+
+Compare with the previous release: [v1.2.1...v1.3.0](https://github.com/corejslib/app/compare/v1.2.1...v1.3.0)
+
 ### v1.2.1 (2026-10-03)
 
 **Code refactoring:**
