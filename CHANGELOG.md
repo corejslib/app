@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.2.0 (2026-10-03)
+
+**New features:**
+
+- \[MINOR] feat: add cluster service discovery client (● [f59b76e](https://github.com/corejslib/app/commit/f59b76e); 👬 zdm)
+
+Compare with the previous release: [v1.1.10...v1.2.0](https://github.com/corejslib/app/compare/v1.1.10...v1.2.0)
+
 ### v1.1.10 (2026-09-27)
 
 **Other changes:**
