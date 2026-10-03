@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.3.1 (2026-10-03)
+
+**Bug fixes:**
+
+- \[PATCH] fix: use configured service name for PostgreSQL discovery (● [c1af272](https://github.com/corejslib/app/commit/c1af272); 👬 zdm)
+
+Compare with the previous release: [v1.3.0...v1.3.1](https://github.com/corejslib/app/compare/v1.3.0...v1.3.1)
+
 ### v1.3.0 (2026-10-03)
 
 **New features:**
