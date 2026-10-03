@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.2.1 (2026-10-03)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: use core service discovery client (● [67d98f2](https://github.com/corejslib/app/commit/67d98f2); 👬 zdm)
+
+Compare with the previous release: [v1.2.0...v1.2.1](https://github.com/corejslib/app/compare/v1.2.0...v1.2.1)
+
 ### v1.2.0 (2026-10-03)
 
 **New features:**
