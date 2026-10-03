@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.3.2 (2026-10-03)
+
+**Other changes:**
+
+- style: annotate service discovery registration (● [80be5f6](https://github.com/corejslib/app/commit/80be5f6); 👬 zdm)
+
+Compare with the previous release: [v1.3.1...v1.3.2](https://github.com/corejslib/app/compare/v1.3.1...v1.3.2)
+
 ### v1.3.1 (2026-10-03)
 
 **Bug fixes:**
