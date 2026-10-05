@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.3.3 (2026-10-05)
+
+**Bug fixes:**
+
+- \[PATCH] fix: align proxy update version field (● [638c501](https://github.com/corejslib/app/commit/638c501); 👬 zdm)
+
+Compare with the previous release: [v1.3.2...v1.3.3](https://github.com/corejslib/app/compare/v1.3.2...v1.3.3)
+
 ### v1.3.2 (2026-10-03)
 
 **Other changes:**
