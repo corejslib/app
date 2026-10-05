@@ -28,7 +28,8 @@ methods:
         schema:
           type: string
           format: kebab-case
-      - name: update_id
+      - name: version
+        description: Update version
         required: true
         schema:
           type: integer
