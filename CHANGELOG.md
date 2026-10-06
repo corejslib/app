@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.3.4 (2026-10-06)
+
+**Other changes:**
+
+- chore: update .pot template (● [5cba32b](https://github.com/corejslib/app/commit/5cba32b); 👬 zdm)
+
+- chore: update translations (● [04a2cac](https://github.com/corejslib/app/commit/04a2cac); 👬 zdm)
+
+Compare with the previous release: [v1.3.3...v1.3.4](https://github.com/corejslib/app/compare/v1.3.3...v1.3.4)
+
 ### v1.3.3 (2026-10-05)
 
 **Bug fixes:**
