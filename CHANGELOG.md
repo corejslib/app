@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.3.5 (2026-10-07)
+
+**Other changes:**
+
+- style: lint (● [ddd6a02](https://github.com/corejslib/app/commit/ddd6a02); 👬 zdm)
+
+Compare with the previous release: [v1.3.4...v1.3.5](https://github.com/corejslib/app/compare/v1.3.4...v1.3.5)
+
 ### v1.3.4 (2026-10-06)
 
 **Other changes:**
