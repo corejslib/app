@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.3.6 (2026-10-09)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor msgpack (● [c2ba55d](https://github.com/corejslib/app/commit/c2ba55d); 👬 zdm)
+
+Compare with the previous release: [v1.3.5...v1.3.6](https://github.com/corejslib/app/compare/v1.3.5...v1.3.6)
+
 ### v1.3.5 (2026-10-07)
 
 **Other changes:**
