@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.3.7 (2026-10-10)
+
+**Other changes:**
+
+- chore: update translations (● [bb18453](https://github.com/corejslib/app/commit/bb18453); 👬 zdm)
+
+Compare with the previous release: [v1.3.6...v1.3.7](https://github.com/corejslib/app/compare/v1.3.6...v1.3.7)
+
 ### v1.3.6 (2026-10-09)
 
 **Code refactoring:**
