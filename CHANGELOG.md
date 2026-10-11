@@ -1,5 +1,23 @@
 # Changelog
 
+### v1.3.8 (2026-10-11)
+
+**Bug fixes:**
+
+- \[PATCH] fix: correct attachment content type validation (● [d550e74](https://github.com/corejslib/app/commit/d550e74); 👬 zdm)
+
+    Adjust the attachment keyword check to read the content type from the headers object instead of the getter-based API, fixing invalid content-type validation.
+
+- \[PATCH] fix: use JSON-RPC request id when present (● [ff339d4](https://github.com/corejslib/app/commit/ff339d4); 👬 zdm)
+
+    This change fixes incorrect behavior in the frontend API by reading the request id from the JSON-RPC payload instead of the raw args object, ensuring the correct identifier is preserved when present.
+
+- \[PATCH] fix: validate JSON-RPC POST requests (● [a0ad1bb](https://github.com/corejslib/app/commit/a0ad1bb); 👬 zdm)
+
+    The POST handler now decodes JSON-RPC payloads before checking protocol details, rejects non-JSON-RPC requests, and preserves void-call behavior based on the parsed request id. It also normalizes undefined params to an empty array while keeping single-argument payloads wrapped as arrays.
+
+Compare with the previous release: [v1.3.7...v1.3.8](https://github.com/corejslib/app/compare/v1.3.7...v1.3.8)
+
 ### v1.3.7 (2026-10-10)
 
 **Other changes:**
