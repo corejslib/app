@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.3.9 (2026-10-12)
+
+**Bug fixes:**
+
+- \[PATCH] fix: recognize attach-prefixed multipart fields in JSON-RPC data (● [f132d99](https://github.com/corejslib/app/commit/f132d99); 👬 zdm)
+
+Compare with the previous release: [v1.3.8...v1.3.9](https://github.com/corejslib/app/compare/v1.3.8...v1.3.9)
+
 ### v1.3.8 (2026-10-11)
 
 **Bug fixes:**
