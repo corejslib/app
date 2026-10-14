@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.4.1 (2026-10-14)
+
+**Bug fixes:**
+
+- \[PATCH] fix: gate GeoIP directives and reload trusted subnet updates (● [fa99e13](https://github.com/corejslib/app/commit/fa99e13); 👬 zdm)
+
+- \[PATCH] fix: invalidate cached trusted subnet config on updates (● [3eddee2](https://github.com/corejslib/app/commit/3eddee2); 👬 zdm)
+
+Compare with the previous release: [v1.4.0...v1.4.1](https://github.com/corejslib/app/compare/v1.4.0...v1.4.1)
+
 ### v1.4.0 (2026-10-14)
 
 **New features:**
