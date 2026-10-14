@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.4.0 (2026-10-14)
+
+**New features:**
+
+- \[MINOR] feat: add nginx GeoIP configuration support (● [2ce40b3](https://github.com/corejslib/app/commit/2ce40b3); 👬 zdm)
+
+    Reload Nginx when GeoIP databases update and add optional GeoIP directives to the HTTP and stream templates.
+
+- \[MINOR] feat: configure GeoIP proxies from trusted subnets (● [fb52963](https://github.com/corejslib/app/commit/fb52963); 👬 zdm)
+
+Compare with the previous release: [v1.3.9...v1.4.0](https://github.com/corejslib/app/compare/v1.3.9...v1.4.0)
+
 ### v1.3.9 (2026-10-12)
 
 **Bug fixes:**
