@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.4.2 (2026-10-16)
+
+**Bug fixes:**
+
+- \[PATCH] fix: pass connection options through waitConnect (● [f3c8dba](https://github.com/corejslib/app/commit/f3c8dba); 👬 zdm)
+
+Compare with the previous release: [v1.4.1...v1.4.2](https://github.com/corejslib/app/compare/v1.4.1...v1.4.2)
+
 ### v1.4.1 (2026-10-14)
 
 **Bug fixes:**
