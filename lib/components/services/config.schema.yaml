@@ -15,7 +15,6 @@
               persistent: { type: boolean }
               version: { type: integer, minimum: 1 }
               locale: { type: string, format: locale }
-              maxConnections: { type: integer, minimum: 1 }
               checkCertificate: { type: boolean }
             additionalProperties: false
 
