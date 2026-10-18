@@ -1,5 +1,21 @@
 # Changelog
 
+### v1.4.5 (2026-10-18)
+
+**Bug fixes:**
+
+- \[PATCH] fix: dispatch multipart requests by method header (● [0e5a7db](https://github.com/corejslib/app/commit/0e5a7db); 👬 zdm)
+
+- \[PATCH] fix: fix api method extraction (● [cad125e](https://github.com/corejslib/app/commit/cad125e); 👬 zdm)
+
+- \[PATCH] fix: fix http server locations (● [9ef234b](https://github.com/corejslib/app/commit/9ef234b); 👬 zdm)
+
+- \[PATCH] fix: resolve API method from decoded request body (● [015c717](https://github.com/corejslib/app/commit/015c717); 👬 zdm)
+
+- \[PATCH] fix: use JSON-RPC response header (● [a18e672](https://github.com/corejslib/app/commit/a18e672); 👬 zdm)
+
+Compare with the previous release: [v1.4.4...v1.4.5](https://github.com/corejslib/app/compare/v1.4.4...v1.4.5)
+
 ### v1.4.4 (2026-10-18)
 
 **Bug fixes:**
