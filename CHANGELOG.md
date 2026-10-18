@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.4.3 (2026-10-18)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: use default API connection settings for clusters (● [493ae44](https://github.com/corejslib/app/commit/493ae44); 👬 zdm)
+
+    Remove the maxConnections override and its schema option.
+
+Compare with the previous release: [v1.4.2...v1.4.3](https://github.com/corejslib/app/compare/v1.4.2...v1.4.3)
+
 ### v1.4.2 (2026-10-16)
 
 **Bug fixes:**
