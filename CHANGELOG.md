@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.4.4 (2026-10-18)
+
+**Bug fixes:**
+
+- \[PATCH] fix: restrict frontend API calls to POST (● [dd4861b](https://github.com/corejslib/app/commit/dd4861b); 👬 zdm)
+
+Compare with the previous release: [v1.4.3...v1.4.4](https://github.com/corejslib/app/compare/v1.4.3...v1.4.4)
+
 ### v1.4.3 (2026-10-18)
 
 **Code refactoring:**
