@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.6.3 (2026-10-19)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: remove nginx server name defaults (● [3ee9c31](https://github.com/corejslib/app/commit/3ee9c31); 👬 zdm)
+
+Compare with the previous release: [v1.6.2...v1.6.3](https://github.com/corejslib/app/compare/v1.6.2...v1.6.3)
+
 ### v1.6.2 (2026-10-19)
 
 **Bug fixes:**
