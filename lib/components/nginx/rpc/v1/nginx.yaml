@@ -23,11 +23,6 @@ methods:
         schema:
           type: string
           format: kebab-case
-      - name: app_service_name
-        required: true
-        schema:
-          type: string
-          format: kebab-case
       - name: version
         description: Update version
         required: true
