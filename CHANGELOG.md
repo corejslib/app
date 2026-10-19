@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.5.0 (2026-10-19)
+
+**New features:**
+
+- \[MINOR] feat: add cluster service discovery to services (● [0525099](https://github.com/corejslib/app/commit/0525099); 👬 zdm)
+
+- \[MINOR] feat: add service-discovery-backed nginx upstream management (● [207ac3e](https://github.com/corejslib/app/commit/207ac3e); 👬 zdm)
+
+Compare with the previous release: [v1.4.6...v1.5.0](https://github.com/corejslib/app/compare/v1.4.6...v1.5.0)
+
 ### v1.4.6 (2026-10-19)
 
 **Code refactoring:**
