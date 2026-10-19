@@ -1,7 +1,8 @@
 dependencies: ~
 
-optionalDependencies: ~
+optionalDependencies:
+  - cluster
 
 config:
   enabled: false
-  url: ws://nginx:81/api
+  url: ws://service-discovery/nginx/rpc
