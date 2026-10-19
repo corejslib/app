@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.6.1 (2026-10-19)
+
+**Bug fixes:**
+
+- \[PATCH] fix: return the upstream instance initialization result (● [d701e9e](https://github.com/corejslib/app/commit/d701e9e); 👬 zdm)
+
+Compare with the previous release: [v1.6.0...v1.6.1](https://github.com/corejslib/app/compare/v1.6.0...v1.6.1)
+
 ### v1.6.0 (2026-10-19)
 
 **New features:**
