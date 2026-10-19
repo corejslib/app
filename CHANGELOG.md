@@ -1,5 +1,23 @@
 # Changelog
 
+### v1.7.0 (2026-10-19)
+
+**New features:**
+
+- \[MINOR] feat: identify nginx proxy apps by name instead of service name (● [2995823](https://github.com/corejslib/app/commit/2995823); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: stop proxy updates after destroy (● [ecd7abc](https://github.com/corejslib/app/commit/ecd7abc); 👬 zdm)
+
+- \[PATCH] fix: sync proxy updates after reconnect (● [8bc9b4c](https://github.com/corejslib/app/commit/8bc9b4c); 👬 zdm)
+
+- \[PATCH] fix: synchronize nginx proxies reliably (● [631a29b](https://github.com/corejslib/app/commit/631a29b); 👬 zdm)
+
+    Retry failed proxy updates, resync on reconnect, and unregister proxies when destroyed.
+
+Compare with the previous release: [v1.6.3...v1.7.0](https://github.com/corejslib/app/compare/v1.6.3...v1.7.0)
+
 ### v1.6.3 (2026-10-19)
 
 **Code refactoring:**
