@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.6.0 (2026-10-19)
+
+**New features:**
+
+- \[MINOR] feat: return success result after initializing API (● [00fabd6](https://github.com/corejslib/app/commit/00fabd6); 👬 zdm)
+
+Compare with the previous release: [v1.5.0...v1.6.0](https://github.com/corejslib/app/compare/v1.5.0...v1.6.0)
+
 ### v1.5.0 (2026-10-19)
 
 **New features:**
