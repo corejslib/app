@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.6.2 (2026-10-19)
+
+**Bug fixes:**
+
+- \[PATCH] fix: use cluster service discovery in nginx upstream (● [392635e](https://github.com/corejslib/app/commit/392635e); 👬 zdm)
+
+Compare with the previous release: [v1.6.1...v1.6.2](https://github.com/corejslib/app/compare/v1.6.1...v1.6.2)
+
 ### v1.6.1 (2026-10-19)
 
 **Bug fixes:**
