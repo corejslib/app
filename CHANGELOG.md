@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.4.6 (2026-10-19)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: use core service discovery API (● [c48d25b](https://github.com/corejslib/app/commit/c48d25b); 👬 zdm)
+
+Compare with the previous release: [v1.4.5...v1.4.6](https://github.com/corejslib/app/compare/v1.4.5...v1.4.6)
+
 ### v1.4.5 (2026-10-18)
 
 **Bug fixes:**
