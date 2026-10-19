@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.7.1 (2026-10-19)
+
+**Bug fixes:**
+
+- \[PATCH] fix: register PostgreSQL service under its canonical name (● [afb075a](https://github.com/corejslib/app/commit/afb075a); 👬 zdm)
+
+Compare with the previous release: [v1.7.0...v1.7.1](https://github.com/corejslib/app/compare/v1.7.0...v1.7.1)
+
 ### v1.7.0 (2026-10-19)
 
 **New features:**
