@@ -3,6 +3,6 @@ dependencies: ~
 optionalDependencies: ~
 
 config:
-  enabled: false
+  enabled: true
   id: ~
   url: ws://cluster:81/api
