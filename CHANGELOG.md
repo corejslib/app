@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.8.0 (2026-10-20)
+
+**New features:**
+
+- \[MINOR] feat: enable cluster component by default (● [2826e40](https://github.com/corejslib/app/commit/2826e40); 👬 zdm)
+
+Compare with the previous release: [v1.7.1...v1.8.0](https://github.com/corejslib/app/compare/v1.7.1...v1.8.0)
+
 ### v1.7.1 (2026-10-19)
 
 **Bug fixes:**
