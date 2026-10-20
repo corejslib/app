@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.8.1 (2026-10-20)
+
+**Other changes:**
+
+- style: clarify startup and shutdown log messages (● [0be3d9d](https://github.com/corejslib/app/commit/0be3d9d); 👬 zdm)
+
+Compare with the previous release: [v1.8.0...v1.8.1](https://github.com/corejslib/app/compare/v1.8.0...v1.8.1)
+
 ### v1.8.0 (2026-10-20)
 
 **New features:**
