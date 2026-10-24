@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.9.0 (2026-10-24)
+
+**New features:**
+
+- \[MINOR] feat: pass cluster service discovery to SQL client (● [5958a34](https://github.com/corejslib/app/commit/5958a34); 👬 zdm)
+
+Compare with the previous release: [v1.8.1...v1.9.0](https://github.com/corejslib/app/compare/v1.8.1...v1.9.0)
+
 ### v1.8.1 (2026-10-20)
 
 **Other changes:**
