@@ -18,14 +18,15 @@
             - type: "null"
             - { type: string, format: absolute-file-path }
         appName: { type: ["null", string] }
-        serviceName: { type: ["null", string] }
+        serviceDiscoveryAppName: { type: ["null", string] }
+        serviceDiscoveryServiceName: { type: ["null", string] }
         standbyHostname: { type: ["null", string] }
         standbyPort:
           anyOf:
             - type: "null"
             - { type: integer, format: ip-port }
-        standbyAppName: { type: ["null", string] }
-        standbyServiceName: { type: ["null", string] }
+        standbyServiceDiscoveryAppName: { type: ["null", string] }
+        standbyServiceDiscoveryServiceName: { type: ["null", string] }
         checkCertificate: { type: ["null", boolean] }
         maxConnections:
           anyOf:

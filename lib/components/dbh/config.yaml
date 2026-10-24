@@ -13,12 +13,13 @@ config:
     hostname: service-discovery
     port: 5432
     socket: ~
-    appName: postgresql
-    serviceName: postgresql
+    appName: ~
+    serviceDiscoveryAppName: postgresql
+    serviceDiscoveryServiceName: postgresql
     standbyHostname: service-discovery
     standbyPort: 5432
-    standbyAppName: postgresql-sync
-    standbyServiceName: postgresql
+    standbyServiceDiscoveryAppName: postgresql-sync
+    standbyServiceDiscoveryServiceName: postgresql
     checkCertificate: true
     maxConnections: 10
     maxConnectionsPerStandby: 10
