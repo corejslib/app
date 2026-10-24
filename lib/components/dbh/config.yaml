@@ -4,4 +4,23 @@ optionalDependencies:
   - cluster
   - postgresql
 
-config: ~
+config:
+  enabled: false
+  url: postgresql://
+  options:
+    username: ~
+    passsword: ~
+    hostname: service-discovery
+    port: 5432
+    socket: ~
+    appName: postgresql
+    serviceName: postgresql
+    standbyHostname: service-discovery
+    standbyPort: 5432
+    standbyAppName: postgresql-sync
+    standbyServiceName: postgresql
+    checkCertificate: true
+    maxConnections: 10
+    maxConnectionsPerStandby: 10
+    idleTimeout: 1 minute
+    largeObjectReadSize: 64 KiB

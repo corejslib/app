@@ -1,7 +1,51 @@
 - $id: config
   type: object
   properties:
+    enabled: { type: boolean }
     url: { type: string, format: url }
+    options:
+      type: object
+      properties:
+        username: { type: ["null", string] }
+        password: { type: ["null", string] }
+        hostname: { type: ["null", string] }
+        port:
+          anyOf:
+            - type: "null"
+            - { type: integer, format: ip-port }
+        socket:
+          anyOf:
+            - type: "null"
+            - { type: string, format: absolute-file-path }
+        appName: { type: ["null", string] }
+        serviceName: { type: ["null", string] }
+        standbyHostname: { type: ["null", string] }
+        standbyPort:
+          anyOf:
+            - type: "null"
+            - { type: integer, format: ip-port }
+        standbyAppName: { type: ["null", string] }
+        standbyServiceName: { type: ["null", string] }
+        checkCertificate: { type: ["null", boolean] }
+        maxConnections:
+          anyOf:
+            - type: "null"
+            - { type: integer, minimum: 1 }
+        maxConnectionsPerStandby:
+          anyOf:
+            - type: "null"
+            - { type: integer, minimum: 1 }
+        idleTimeout:
+          anyOf:
+            - type: "null"
+            - { type: "string", format: interval }
+        largeObjectReadSize:
+          anyOf:
+            - type: "null"
+            - { type: "string", format: digital-size }
+
+      additionalProperties: false
+      required: []
 
   additionalProperties: false
-  required: []
+  required: [enabled, url]
