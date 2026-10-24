@@ -22,6 +22,6 @@ config:
     standbyServiceDiscoveryServiceName: postgresql
     checkCertificate: true
     maxConnections: 10
-    maxConnectionsPerStandby: 10
+    standbyMaxConnections: 10
     idleTimeout: 1 minute
     largeObjectReadSize: 64 KiB

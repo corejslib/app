@@ -8,7 +8,10 @@
       properties:
         username: { type: ["null", string] }
         password: { type: ["null", string] }
-        hostname: { type: ["null", string] }
+        hostname:
+          anyOf:
+            - type: "null"
+            - { type: string, format: hostname }
         port:
           anyOf:
             - type: "null"
@@ -20,7 +23,10 @@
         appName: { type: ["null", string] }
         serviceDiscoveryAppName: { type: ["null", string] }
         serviceDiscoveryServiceName: { type: ["null", string] }
-        standbyHostname: { type: ["null", string] }
+        standbyHostname:
+          anyOf:
+            - type: "null"
+            - { type: string, format: hostname }
         standbyPort:
           anyOf:
             - type: "null"
@@ -32,7 +38,7 @@
           anyOf:
             - type: "null"
             - { type: integer, minimum: 1 }
-        maxConnectionsPerStandby:
+        standbyMaxConnections:
           anyOf:
             - type: "null"
             - { type: integer, minimum: 1 }
