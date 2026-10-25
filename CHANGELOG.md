@@ -1,5 +1,27 @@
 # Changelog
 
+### v1.10.0 (2026-10-25)
+
+**New features:**
+
+- \[MINOR] feat: configure database connection options (● [5abd7e2](https://github.com/corejslib/app/commit/5abd7e2); 👬 zdm)
+
+- \[MINOR] feat: validate database hostnames and rename standby connection limit (● [7f26f4a](https://github.com/corejslib/app/commit/7f26f4a); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: correct database password config key (● [ab634fb](https://github.com/corejslib/app/commit/ab634fb); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: clarify service discovery configuration names (● [2e93d07](https://github.com/corejslib/app/commit/2e93d07); 👬 zdm)
+
+**Other changes:**
+
+- build(deps): add cluster as an optional dependency (● [61954d2](https://github.com/corejslib/app/commit/61954d2); 👬 zdm)
+
+Compare with the previous release: [v1.9.0...v1.10.0](https://github.com/corejslib/app/compare/v1.9.0...v1.10.0)
+
 ### v1.9.0 (2026-10-24)
 
 **New features:**
