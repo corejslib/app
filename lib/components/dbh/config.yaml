@@ -9,7 +9,7 @@ config:
   url: postgresql://
   options:
     username: ~
-    passsword: ~
+    password: ~
     hostname: service-discovery
     port: 5432
     socket: ~
