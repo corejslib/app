@@ -25,7 +25,7 @@ config:
   replication:
     port: 5432
     username: replication
-    password: ~
+    password: 061e3e4c-c626-4fde-88b9-5474521c45ae
 
     primary:
       hostname: postgresql
