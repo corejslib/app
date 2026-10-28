@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.2 (2026-10-28)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor postgres (● [c064d21](https://github.com/corejslib/app/commit/c064d21); 👬 zdm)
+
+Compare with the previous release: [v1.10.1...v1.10.2](https://github.com/corejslib/app/compare/v1.10.1...v1.10.2)
+
 ### v1.10.1 (2026-10-25)
 
 **Code refactoring:**
