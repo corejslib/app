@@ -11,7 +11,7 @@
 - $id: config
   type: object
   properties:
-    mode: { enum: [primary, standby-sync, standby-async, backup] }
+    mode: { enum: [primary, standby-synchronous, standby-asynchronous, backup] }
     clusterName: { type: string }
     dataDir: { type: ["null", string] }
 
@@ -56,7 +56,7 @@
           additionalProperties: false
           required: [hostname]
 
-        sync:
+        synchronous:
           type: object
           properties:
             hostname: { type: string }
@@ -67,10 +67,10 @@
           additionalProperties: false
           required: [hostname, numberOfStandbys]
 
-        async:
+        asynchronous:
           type: object
           properties:
-            replicateFrom: { enum: [primary, sync] }
+            replicateFrom: { enum: [primary, synchronous] }
           additionalProperties: false
           required: [replicateFrom]
 

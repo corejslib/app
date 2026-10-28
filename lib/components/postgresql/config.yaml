@@ -30,12 +30,12 @@ config:
     primary:
       hostname: postgresql
 
-    sync:
+    synchronous:
       hostname: postgresql-sync
       numberOfStandbys: 0
 
-    async:
-      replicateFrom: sync
+    asynchronous:
+      replicateFrom: primary
 
   settings:
     maintenance_work_mem: 512 MB
