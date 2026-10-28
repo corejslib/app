@@ -15,11 +15,11 @@ config:
     socket: ~
     clientName: ~
     serviceDiscoveryAppName: postgresql
-    serviceDiscoveryServiceName: postgresql
+    serviceDiscoveryServiceName: postgresql-primary
     standbyHostname: service-discovery
     standbyPort: 5432
     standbyServiceDiscoveryAppName: postgresql-sync
-    standbyServiceDiscoveryServiceName: postgresql
+    standbyServiceDiscoveryServiceName: postgresql-standby-synchronous
     checkCertificate: true
     maxConnections: 10
     standbyMaxConnections: 10

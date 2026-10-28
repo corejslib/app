@@ -30,11 +30,11 @@ config:
     primary:
       hostname: postgresql
 
-    sync:
+    synchronous:
       hostname: postgresql-sync
       numberOfStandbys: 0
 
-    async:
+    asynchronous:
       replicateFrom: primary
 
   settings:
