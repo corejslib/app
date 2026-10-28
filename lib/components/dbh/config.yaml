@@ -13,7 +13,7 @@ config:
     hostname: service-discovery
     port: 5432
     socket: ~
-    appName: ~
+    clientName: ~
     serviceDiscoveryAppName: postgresql
     serviceDiscoveryServiceName: postgresql
     standbyHostname: service-discovery

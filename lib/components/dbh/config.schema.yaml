@@ -20,7 +20,7 @@
           anyOf:
             - type: "null"
             - { type: string, format: absolute-file-path }
-        appName: { type: ["null", string] }
+        clientName: { type: ["null", string] }
         serviceDiscoveryAppName: { type: ["null", string] }
         serviceDiscoveryServiceName: { type: ["null", string] }
         standbyHostname:
