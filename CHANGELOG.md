@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.3 (2026-10-28)
+
+**Bug fixes:**
+
+- \[PATCH] fix: correct replication role SQL construction (● [0dd01af](https://github.com/corejslib/app/commit/0dd01af); 👬 zdm)
+
+Compare with the previous release: [v1.10.2...v1.10.3](https://github.com/corejslib/app/compare/v1.10.2...v1.10.3)
+
 ### v1.10.2 (2026-10-28)
 
 **Code refactoring:**
