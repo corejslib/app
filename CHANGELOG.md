@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.6 (2026-10-29)
+
+**Bug fixes:**
+
+- \[PATCH] fix: use configured mode for PostgreSQL proxy (● [4d8d962](https://github.com/corejslib/app/commit/4d8d962); 👬 zdm)
+
+Compare with the previous release: [v1.10.5...v1.10.6](https://github.com/corejslib/app/compare/v1.10.5...v1.10.6)
+
 ### v1.10.5 (2026-10-29)
 
 **Bug fixes:**
