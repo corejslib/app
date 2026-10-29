@@ -39,7 +39,6 @@ methods:
                 properties:
                   upstreamPort: { type: integer, format: ip-port }
                   upstreamProxyProtocol: { type: boolean }
-
                   serverNames:
                     anyOf:
                       - type: "null"
