@@ -1,5 +1,25 @@
 # Changelog
 
+### v1.10.4 (2026-10-29)
+
+**Bug fixes:**
+
+- \[PATCH] fix: remove hard-coded PostgreSQL replication password (● [831e97f](https://github.com/corejslib/app/commit/831e97f); 👬 zdm)
+
+- \[PATCH] fix: resolve cluster operation on process exit (● [54b560a](https://github.com/corejslib/app/commit/54b560a); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor postgres (● [0838cb8](https://github.com/corejslib/app/commit/0838cb8), [ce53075](https://github.com/corejslib/app/commit/ce53075), [00229fd](https://github.com/corejslib/app/commit/00229fd), [a6b766d](https://github.com/corejslib/app/commit/a6b766d), [cdeb783](https://github.com/corejslib/app/commit/cdeb783), [91f3f0a](https://github.com/corejslib/app/commit/91f3f0a), [280e9cc](https://github.com/corejslib/app/commit/280e9cc), [7814168](https://github.com/corejslib/app/commit/7814168), [4f5e840](https://github.com/corejslib/app/commit/4f5e840), [0018514](https://github.com/corejslib/app/commit/0018514), [ff0537f](https://github.com/corejslib/app/commit/ff0537f), [22855c5](https://github.com/corejslib/app/commit/22855c5), [c670244](https://github.com/corejslib/app/commit/c670244), [fc5c38d](https://github.com/corejslib/app/commit/fc5c38d), [11f5138](https://github.com/corejslib/app/commit/11f5138), [621152e](https://github.com/corejslib/app/commit/621152e), [7c13cd9](https://github.com/corejslib/app/commit/7c13cd9), [4100ec6](https://github.com/corejslib/app/commit/4100ec6), [6aa8207](https://github.com/corejslib/app/commit/6aa8207), [a37d281](https://github.com/corejslib/app/commit/a37d281), [ce1c50b](https://github.com/corejslib/app/commit/ce1c50b), [cb87100](https://github.com/corejslib/app/commit/cb87100), [a23d8b1](https://github.com/corejslib/app/commit/a23d8b1), [448f022](https://github.com/corejslib/app/commit/448f022), [7f2889d](https://github.com/corejslib/app/commit/7f2889d), [aac042f](https://github.com/corejslib/app/commit/aac042f), [41f86d7](https://github.com/corejslib/app/commit/41f86d7), [caed4ec](https://github.com/corejslib/app/commit/caed4ec), [95ca687](https://github.com/corejslib/app/commit/95ca687), [0cb3ed9](https://github.com/corejslib/app/commit/0cb3ed9), [96c2d45](https://github.com/corejslib/app/commit/96c2d45), [956d295](https://github.com/corejslib/app/commit/956d295), [cd47af0](https://github.com/corejslib/app/commit/cd47af0), [b93fc9f](https://github.com/corejslib/app/commit/b93fc9f), [ced24ff](https://github.com/corejslib/app/commit/ced24ff), [f45531e](https://github.com/corejslib/app/commit/f45531e), [8f0e932](https://github.com/corejslib/app/commit/8f0e932), [9a7b766](https://github.com/corejslib/app/commit/9a7b766), [3b5130a](https://github.com/corejslib/app/commit/3b5130a); 👬 zdm)
+
+- \[PATCH] refactor: remove temporal import from storage (● [90e3354](https://github.com/corejslib/app/commit/90e3354); 👬 zdm)
+
+- \[PATCH] refactor: replace array spreads with Iterator.concat (● [ae8a657](https://github.com/corejslib/app/commit/ae8a657); 👬 zdm)
+
+- \[PATCH] refactor: use iterator toArray for collection conversion (● [e830893](https://github.com/corejslib/app/commit/e830893); 👬 zdm)
+
+Compare with the previous release: [v1.10.3...v1.10.4](https://github.com/corejslib/app/compare/v1.10.3...v1.10.4)
+
 ### v1.10.3 (2026-10-28)
 
 **Bug fixes:**
