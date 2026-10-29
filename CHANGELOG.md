@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.10.5 (2026-10-29)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix postgresql start (● [ee63bb0](https://github.com/corejslib/app/commit/ee63bb0); 👬 zdm)
+
+- \[PATCH] fix: shut down process when PostgreSQL cluster stops (● [ebd72b0](https://github.com/corejslib/app/commit/ebd72b0); 👬 zdm)
+
+Compare with the previous release: [v1.10.4...v1.10.5](https://github.com/corejslib/app/compare/v1.10.4...v1.10.5)
+
 ### v1.10.4 (2026-10-29)
 
 **Bug fixes:**
