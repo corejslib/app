@@ -1,5 +1,23 @@
 # Changelog
 
+### v1.11.0 (2026-10-30)
+
+**New features:**
+
+- \[MINOR] feat: manage proxy upstreams per connection (● [e692ab1](https://github.com/corejslib/app/commit/e692ab1); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: prefix mode in PostgreSQL nginx proxy name (● [e1f48e1](https://github.com/corejslib/app/commit/e1f48e1); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename nginx proxy key parameter to serviceName (● [5d2649b](https://github.com/corejslib/app/commit/5d2649b); 👬 zdm)
+
+- \[PATCH] refactor: use native base64 buffer APIs (● [6ace918](https://github.com/corejslib/app/commit/6ace918); 👬 zdm)
+
+Compare with the previous release: [v1.10.6...v1.11.0](https://github.com/corejslib/app/compare/v1.10.6...v1.11.0)
+
 ### v1.10.6 (2026-10-29)
 
 **Bug fixes:**
