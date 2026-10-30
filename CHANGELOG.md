@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.2 (2026-10-30)
+
+**Bug fixes:**
+
+- \[PATCH] fix: allow storage creation queries to write (● [9951433](https://github.com/corejslib/app/commit/9951433); 👬 zdm)
+
+Compare with the previous release: [v1.11.1...v1.11.2](https://github.com/corejslib/app/compare/v1.11.1...v1.11.2)
+
 ### v1.11.1 (2026-10-30)
 
 **Bug fixes:**
