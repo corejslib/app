@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.1 (2026-10-30)
+
+**Bug fixes:**
+
+- \[PATCH] fix: handle proxy entries and version checks (● [19510db](https://github.com/corejslib/app/commit/19510db); 👬 zdm)
+
+Compare with the previous release: [v1.11.0...v1.11.1](https://github.com/corejslib/app/compare/v1.11.0...v1.11.1)
+
 ### v1.11.0 (2026-10-30)
 
 **New features:**
