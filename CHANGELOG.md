@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.3 (2026-10-30)
+
+**Bug fixes:**
+
+- \[PATCH] fix: map proxy entries before constructing map (● [85c3c03](https://github.com/corejslib/app/commit/85c3c03); 👬 zdm)
+
+Compare with the previous release: [v1.11.2...v1.11.3](https://github.com/corejslib/app/compare/v1.11.2...v1.11.3)
+
 ### v1.11.2 (2026-10-30)
 
 **Bug fixes:**
