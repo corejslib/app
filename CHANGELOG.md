@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.4 (2026-10-30)
+
+**Bug fixes:**
+
+- \[PATCH] fix: use nested options when registering nginx proxies (● [2844921](https://github.com/corejslib/app/commit/2844921); 👬 zdm)
+
+Compare with the previous release: [v1.11.3...v1.11.4](https://github.com/corejslib/app/compare/v1.11.3...v1.11.4)
+
 ### v1.11.3 (2026-10-30)
 
 **Bug fixes:**
