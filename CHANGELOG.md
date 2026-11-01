@@ -1,5 +1,21 @@
 # Changelog
 
+### v1.12.0 (2026-11-01)
+
+**New features:**
+
+- \[MINOR] feat: store cipher lengths in keyring headers (● [654e2a3](https://github.com/corejslib/app/commit/654e2a3); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: update phc api (● [8bbbbb7](https://github.com/corejslib/app/commit/8bbbbb7); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor encryption (● [bc5a8a9](https://github.com/corejslib/app/commit/bc5a8a9); 👬 zdm)
+
+Compare with the previous release: [v1.11.4...v1.12.0](https://github.com/corejslib/app/compare/v1.11.4...v1.12.0)
+
 ### v1.11.4 (2026-10-30)
 
 **Bug fixes:**
