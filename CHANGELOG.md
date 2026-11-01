@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.12.1 (2026-11-01)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: import PHC from core module (● [6441b19](https://github.com/corejslib/app/commit/6441b19); 👬 zdm)
+
+Compare with the previous release: [v1.12.0...v1.12.1](https://github.com/corejslib/app/compare/v1.12.0...v1.12.1)
+
 ### v1.12.0 (2026-11-01)
 
 **New features:**
