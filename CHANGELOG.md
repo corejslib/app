@@ -1,5 +1,33 @@
 # Changelog
 
+### v1.12.2 (2026-11-02)
+
+**Bug fixes:**
+
+- \[PATCH] fix: always release active-key mutex (● [3f16609](https://github.com/corejslib/app/commit/3f16609); 👬 zdm)
+
+- \[PATCH] fix: decode hexadecimal secret IDs before key lookup (● [32b3012](https://github.com/corejslib/app/commit/32b3012); 👬 zdm)
+
+- \[PATCH] fix: fix Buffer.fromBase64 (● [136ce67](https://github.com/corejslib/app/commit/136ce67), [fd59bc9](https://github.com/corejslib/app/commit/fd59bc9); 👬 zdm)
+
+- \[PATCH] fix: parse secret ids directly (● [3d867cd](https://github.com/corejslib/app/commit/3d867cd); 👬 zdm)
+
+    Use the secret ID string when looking up cached keys and simplify local declarations.
+
+- \[PATCH] fix: pass algorithm using the correct encryption option (● [bf1c008](https://github.com/corejslib/app/commit/bf1c008); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: use native secret handling in keyring (● [da1cd3a](https://github.com/corejslib/app/commit/da1cd3a); 👬 zdm)
+
+    Replace custom encryption initialization and headers with cipher, secret, and format options.
+
+**Other changes:**
+
+- style: lint (● [1f9ab2a](https://github.com/corejslib/app/commit/1f9ab2a); 👬 zdm)
+
+Compare with the previous release: [v1.12.1...v1.12.2](https://github.com/corejslib/app/compare/v1.12.1...v1.12.2)
+
 ### v1.12.1 (2026-11-01)
 
 **Code refactoring:**
