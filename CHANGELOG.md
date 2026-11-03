@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.13.0 (2026-11-03)
+
+**New features:**
+
+- \[MINOR] feat: set PostgreSQL interval style to ISO 8601 (● [ff91d23](https://github.com/corejslib/app/commit/ff91d23); 👬 zdm)
+
+Compare with the previous release: [v1.12.2...v1.13.0](https://github.com/corejslib/app/compare/v1.12.2...v1.13.0)
+
 ### v1.12.2 (2026-11-02)
 
 **Bug fixes:**
