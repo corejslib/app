@@ -48,6 +48,8 @@ config:
     # plpgsql
     plpgsql.variable_conflict: error
 
+    IntervalStyle: iso_8601
+
   nginx:
     enabled: false
     port: 5432
