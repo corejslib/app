@@ -1,5 +1,27 @@
 # Changelog
 
+### v1.14.0 (2026-11-03)
+
+**New features:**
+
+- \[MINOR] feat: refactor crypto component (● [a3cd777](https://github.com/corejslib/app/commit/a3cd777); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: export master key before wrapping and unwrapping (● [33ba894](https://github.com/corejslib/app/commit/33ba894); 👬 zdm)
+
+- \[PATCH] fix: rename crypto keyring (● [30a9399](https://github.com/corejslib/app/commit/30a9399); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: remove acme local storage (● [0df0d52](https://github.com/corejslib/app/commit/0df0d52); 👬 zdm)
+
+**Other changes:**
+
+- style: prefix HTTP server log messages with component names (● [de59b9e](https://github.com/corejslib/app/commit/de59b9e); 👬 zdm)
+
+Compare with the previous release: [v1.13.0...v1.14.0](https://github.com/corejslib/app/compare/v1.13.0...v1.14.0)
+
 ### v1.13.0 (2026-11-03)
 
 **New features:**
