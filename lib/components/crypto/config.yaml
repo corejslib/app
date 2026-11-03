@@ -1,13 +1,12 @@
-dependencies: ~
-
-optionalDependencies:
+dependencies:
   - dbh
   - cluster
+
+optionalDependencies: ~
 
 config:
   algorithm: AES-256-GCM
   key: ~
-  useLocalKeyring: false
 
   passwordHash:
     preset: owasp

@@ -1,9 +1,8 @@
 - $id: config
   type: object
   properties:
-    algorithm: { type: string }
+    algorithm: { enum: [AES-256-GCM] }
     key: { type: ["null", string] }
-    useLocalKeyring: { type: boolean }
 
     passwordHash:
       type: object
@@ -43,4 +42,4 @@
       required: [preset]
 
   additionalProperties: false
-  required: [algorithm, key, useLocalKeyring, passwordHash]
+  required: [algorithm, key, passwordHash]
