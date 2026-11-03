@@ -1,17 +1,16 @@
 dependencies:
+  - cluster
   - crypto
+  - dbh
 
 optionalDependencies:
-  - dbh
-  - cluster
-  - publicHttpServer
   - privateHttpServer
+  - publicHttpServer
   - services
 
 config:
   email: ~
   test: false
-  useLocalStorage: ~
   certificatesRenewInterval: 1 week
   challengeMaxAge: 10 minutes
   httpEnabled: false
