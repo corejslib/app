@@ -1,5 +1,25 @@
 # Changelog
 
+### v1.14.1 (2026-11-05)
+
+**Bug fixes:**
+
+- \[PATCH] fix: floor monitoring timestamps to the minute (● [7ee172e](https://github.com/corejslib/app/commit/7ee172e); 👬 zdm)
+
+- \[PATCH] fix: normalize date handling with Temporal (● [48f3a8d](https://github.com/corejslib/app/commit/48f3a8d); 👬 zdm)
+
+- \[PATCH] fix: retain last-modified header date value (● [7499e49](https://github.com/corejslib/app/commit/7499e49); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: use Date.now for epoch time checks (● [35dddfb](https://github.com/corejslib/app/commit/35dddfb); 👬 zdm)
+
+- \[PATCH] refactor: use Temporal instants for timestamps (● [ad29596](https://github.com/corejslib/app/commit/ad29596); 👬 zdm)
+
+- \[PATCH] refactor: use Temporal.Instant for timestamp handling (● [455d86d](https://github.com/corejslib/app/commit/455d86d); 👬 zdm)
+
+Compare with the previous release: [v1.14.0...v1.14.1](https://github.com/corejslib/app/compare/v1.14.0...v1.14.1)
+
 ### v1.14.0 (2026-11-03)
 
 **New features:**
