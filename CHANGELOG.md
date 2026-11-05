@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.14.3 (2026-11-05)
+
+**Bug fixes:**
+
+- \[PATCH] fix: compare certificate expiration timestamps directly (● [9f4a9ec](https://github.com/corejslib/app/commit/9f4a9ec); 👬 zdm)
+
+Compare with the previous release: [v1.14.2...v1.14.3](https://github.com/corejslib/app/compare/v1.14.2...v1.14.3)
+
 ### v1.14.2 (2026-11-05)
 
 **Bug fixes:**
