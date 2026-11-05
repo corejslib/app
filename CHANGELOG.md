@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.14.2 (2026-11-05)
+
+**Bug fixes:**
+
+- \[PATCH] fix: convert certificate expiry date to temporal instant (● [3395eef](https://github.com/corejslib/app/commit/3395eef); 👬 zdm)
+
+Compare with the previous release: [v1.14.1...v1.14.2](https://github.com/corejslib/app/compare/v1.14.1...v1.14.2)
+
 ### v1.14.1 (2026-11-05)
 
 **Bug fixes:**
