@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.14.4 (2026-11-06)
+
+**Other changes:**
+
+- chore: add nginx upstream log (● [743d426](https://github.com/corejslib/app/commit/743d426); 👬 zdm)
+
+Compare with the previous release: [v1.14.3...v1.14.4](https://github.com/corejslib/app/compare/v1.14.3...v1.14.4)
+
 ### v1.14.3 (2026-11-05)
 
 **Bug fixes:**
