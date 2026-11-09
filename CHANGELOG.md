@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.14.5 (2026-11-09)
+
+**Bug fixes:**
+
+- \[PATCH] fix: pass service discovery paths as options (● [1fe3365](https://github.com/corejslib/app/commit/1fe3365); 👬 zdm)
+
+Compare with the previous release: [v1.14.4...v1.14.5](https://github.com/corejslib/app/compare/v1.14.4...v1.14.5)
+
 ### v1.14.4 (2026-11-06)
 
 **Other changes:**
