@@ -1,5 +1,19 @@
 # Changelog
 
+### v1.14.6 (2026-11-11)
+
+**Bug fixes:**
+
+- \[PATCH] fix: abort in-flight calls when websocket disconnects (● [5db8089](https://github.com/corejslib/app/commit/5db8089); 👬 zdm)
+
+- \[PATCH] fix: use abort parameter to locate abort controller (● [ebe37fe](https://github.com/corejslib/app/commit/ebe37fe); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: use let for authentication context (● [9e5a607](https://github.com/corejslib/app/commit/9e5a607); 👬 zdm)
+
+Compare with the previous release: [v1.14.5...v1.14.6](https://github.com/corejslib/app/compare/v1.14.5...v1.14.6)
+
 ### v1.14.5 (2026-11-09)
 
 **Bug fixes:**
