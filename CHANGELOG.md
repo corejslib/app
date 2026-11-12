@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.14.8 (2026-11-12)
+
+**Bug fixes:**
+
+- \[PATCH] fix: use correct LIKE pattern escaping for ACL user suggestions (● [8b341a8](https://github.com/corejslib/app/commit/8b341a8); 👬 zdm)
+
+Compare with the previous release: [v1.14.7...v1.14.8](https://github.com/corejslib/app/compare/v1.14.7...v1.14.8)
+
 ### v1.14.7 (2026-11-12)
 
 **Bug fixes:**
