@@ -1,5 +1,19 @@
 # Changelog
 
+### v1.14.7 (2026-11-12)
+
+**Bug fixes:**
+
+- \[PATCH] fix: use case-insensitive LIKE for email matching (● [5828e79](https://github.com/corejslib/app/commit/5828e79); 👬 zdm)
+
+- \[PATCH] fix: use casefold normalization for ACL email lookup (● [090e56f](https://github.com/corejslib/app/commit/090e56f); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename softvisio_types extension to softvisio (● [e0f577d](https://github.com/corejslib/app/commit/e0f577d); 👬 zdm)
+
+Compare with the previous release: [v1.14.6...v1.14.7](https://github.com/corejslib/app/compare/v1.14.6...v1.14.7)
+
 ### v1.14.6 (2026-11-11)
 
 **Bug fixes:**
