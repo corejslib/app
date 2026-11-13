@@ -88,7 +88,7 @@ templates:
 config:
   defaultVersion: 1
 
-  avatarUrl: /api/avatar/
+  avatarUrl: avatar
   avatarMaxAge: 1 day
   forceDefaultAvatar: false
   defaultGravatar: ~

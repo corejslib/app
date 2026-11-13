@@ -3,7 +3,7 @@
   properties:
     defaultVersion: { type: integer, minimum: 1 }
 
-    avatarUrl: { type: string, format: kebab-case-absolute-folder-path }
+    avatarUrl: { type: string, format: kebab-case-relative-file-path }
     avatarMaxAge: { type: string, format: interval }
     forceDefaultAvatar: { type: boolean }
     defaultGravatar:
