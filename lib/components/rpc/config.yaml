@@ -9,7 +9,7 @@ config:
   defaultVersion: 1
 
   frontend:
-    location: /api
+    location: /
     maxApiRequestBodySize: 10 MiB
     idleTimeout: 960 seconds # send pings, required for Nginx, CloudFlare
     sendPingsAutomatically: true
