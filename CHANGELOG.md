@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.15.2 (2026-11-13)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename app startup hooks to past tense (● [a8a5821](https://github.com/corejslib/app/commit/a8a5821); 👬 zdm)
+
+Compare with the previous release: [v1.15.1...v1.15.2](https://github.com/corejslib/app/compare/v1.15.1...v1.15.2)
+
 ### v1.15.1 (2026-11-13)
 
 **Bug fixes:**
