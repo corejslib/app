@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.15.4 (2026-11-13)
+
+**Bug fixes:**
+
+- \[PATCH] fix: use camelCase HTTP server component names (● [4656135](https://github.com/corejslib/app/commit/4656135); 👬 zdm)
+
+Compare with the previous release: [v1.15.3...v1.15.4](https://github.com/corejslib/app/compare/v1.15.3...v1.15.4)
+
 ### v1.15.3 (2026-11-13)
 
 **Bug fixes:**
