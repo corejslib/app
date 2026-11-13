@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.15.1 (2026-11-13)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix service discovery registration (● [b7ee0b6](https://github.com/corejslib/app/commit/b7ee0b6); 👬 zdm)
+
+- \[PATCH] fix: use root paths for cluster and RPC endpoints (● [532917a](https://github.com/corejslib/app/commit/532917a); 👬 zdm)
+
+Compare with the previous release: [v1.15.0...v1.15.1](https://github.com/corejslib/app/compare/v1.15.0...v1.15.1)
+
 ### v1.15.0 (2026-11-13)
 
 **New features:**
