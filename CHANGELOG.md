@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.15.0 (2026-11-13)
+
+**New features:**
+
+- \[MINOR] feat: add trigram index for normalized user email (● [d48e0fe](https://github.com/corejslib/app/commit/d48e0fe); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: normalize ACL email matching with NFC case folding (● [9501262](https://github.com/corejslib/app/commit/9501262); 👬 zdm)
+
+Compare with the previous release: [v1.14.8...v1.15.0](https://github.com/corejslib/app/compare/v1.14.8...v1.15.0)
+
 ### v1.14.8 (2026-11-12)
 
 **Bug fixes:**
