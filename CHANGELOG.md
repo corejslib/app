@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.15.3 (2026-11-13)
+
+**Bug fixes:**
+
+- \[PATCH] fix: use correct component lookup for rpc discovery (● [c429334](https://github.com/corejslib/app/commit/c429334); 👬 zdm)
+
+Compare with the previous release: [v1.15.2...v1.15.3](https://github.com/corejslib/app/compare/v1.15.2...v1.15.3)
+
 ### v1.15.2 (2026-11-13)
 
 **Code refactoring:**
