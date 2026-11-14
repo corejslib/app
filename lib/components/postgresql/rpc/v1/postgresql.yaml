@@ -1,12 +1,26 @@
 title: PostgreSQL
 
+emits:
+  - postgresql/cluster-update
+
 methods:
-  get-wal:
-    title: Get WAL file
+  set-instance-status:
+    title: Set PostgreSQL cluster node status
+    connectionType: websockets
     params:
-      - name: server_names
+      - name: status
         required: true
         schema:
-          anyOf:
-            - { type: string, format: nginx-server-name }
-            - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+          type: object
+          properties:
+            instanceId: { type: string }
+            remoteAddress: { type: string, format: ip-address }
+            status: { enum: [stopped, started] }
+            role:
+              anyOf:
+                - type: "null"
+                - { enum: [primary, standby-synchronous, standby-asynchronous] }
+            timeLine: { type: string }
+            lsn: { type: string }
+          additionalProperties: false
+          required: [instanceId, status]
