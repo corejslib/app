@@ -1,7 +1,8 @@
-dependencies: ~
+dependencies:
+  - cluster
+  - rpc
 
 optionalDependencies:
-  - cluster
   - nginxUpstream
 
 config:
