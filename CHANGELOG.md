@@ -1,5 +1,21 @@
 # Changelog
 
+### v1.17.0 (2026-11-14)
+
+**New features:**
+
+- \[MINOR] feat: support absolute avatar URLs (● [8e91550](https://github.com/corejslib/app/commit/8e91550); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: accept root and kebab-case absolute paths in component schemas (● [8ca1d29](https://github.com/corejslib/app/commit/8ca1d29); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: import validatePath from validate module (● [34f6f87](https://github.com/corejslib/app/commit/34f6f87); 👬 zdm)
+
+Compare with the previous release: [v1.16.0...v1.17.0](https://github.com/corejslib/app/compare/v1.16.0...v1.17.0)
+
 ### v1.16.0 (2026-11-14)
 
 **New features:**
