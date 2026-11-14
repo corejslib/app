@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.16.0 (2026-11-14)
+
+**New features:**
+
+- \[MINOR] feat: resolve avatar URLs from frontend location (● [4b37cd5](https://github.com/corejslib/app/commit/4b37cd5); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: serve the OAuth page from the root path (● [ccbcbd5](https://github.com/corejslib/app/commit/ccbcbd5); 👬 zdm)
+
+Compare with the previous release: [v1.15.4...v1.16.0](https://github.com/corejslib/app/compare/v1.15.4...v1.16.0)
+
 ### v1.15.4 (2026-11-13)
 
 **Bug fixes:**
