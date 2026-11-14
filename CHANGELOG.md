@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.17.1 (2026-11-14)
+
+**Bug fixes:**
+
+- \[PATCH] fix: use directory option for path validation (● [9e96323](https://github.com/corejslib/app/commit/9e96323); 👬 zdm)
+
+Compare with the previous release: [v1.17.0...v1.17.1](https://github.com/corejslib/app/compare/v1.17.0...v1.17.1)
+
 ### v1.17.0 (2026-11-14)
 
 **New features:**
