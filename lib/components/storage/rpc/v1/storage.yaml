@@ -9,7 +9,7 @@ methods:
         required: true
         schema:
           type: string
-          path: { root: false, folder: false }
+          path: { root: false, directory: false }
 
   upload:
     title: Upload file to the storage
@@ -18,7 +18,7 @@ methods:
         required: true
         schema:
           type: string
-          path: { root: false, folder: false }
+          path: { root: false, directory: false }
       - name: file
         required: true
         schema:
@@ -27,7 +27,7 @@ methods:
         schema:
           type: object
           properties:
-            cwd: { type: string, path: { root: true, folder: false } }
+            cwd: { type: string, path: { root: true, directory: false } }
             expires: { type: string, format: instant-date-time }
             maxAge: { type: string, format: interval }
             inactiveMaxAge: { type: string, format: interval }
@@ -41,12 +41,12 @@ methods:
         required: true
         schema:
           type: string
-          path: { root: false, folder: false }
+          path: { root: false, directory: false }
       - name: options
         schema:
           type: object
           properties:
-            cwd: { type: string, path: { root: true, folder: false } }
+            cwd: { type: string, path: { root: true, directory: false } }
             checkImage: { type: boolean }
           additionalProperties: false
 
@@ -57,12 +57,12 @@ methods:
         required: true
         schema:
           type: string
-          path: { root: false, folder: false }
+          path: { root: false, directory: false }
       - name: options
         schema:
           type: object
           properties:
-            cwd: { type: string, path: { root: true, folder: false } }
+            cwd: { type: string, path: { root: true, directory: false } }
             checkImage: { type: boolean }
           additionalProperties: false
 
@@ -81,7 +81,7 @@ methods:
         schema:
           type: object
           properties:
-            cwd: { type: string, path: { root: true, folder: false } }
+            cwd: { type: string, path: { root: true, directory: false } }
           additionalProperties: false
 
   delete-files:
@@ -99,5 +99,5 @@ methods:
         schema:
           type: object
           properties:
-            cwd: { type: string, path: { root: true, folder: false } }
+            cwd: { type: string, path: { root: true, directory: false } }
           additionalProperties: false
