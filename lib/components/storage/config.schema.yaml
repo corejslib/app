@@ -3,7 +3,10 @@
   properties:
     clearInterval: { type: string, format: interval }
     maxCacheSize: { type: integer, minimum: 1 }
-    location: { type: string, format: kebab-case-root-or-absolute-file-path }
+    location:
+      anyOf:
+        - { type: string, format: root-path }
+        - { type: string, format: kebab-case-absolute-file-path }
     listenPublicHttpServer: { type: boolean }
     listenPrivateHttpServer: { type: boolean }
 
@@ -11,7 +14,10 @@
       type: object
       properties:
         "/": { $ref: common#/$defs/bucket }
-      propertyNames: { type: string, format: kebab-case-root-or-absolute-file-path }
+      propertyNames:
+        anyOf:
+          - { type: string, format: root-path }
+          - { type: string, format: kebab-case-absolute-file-path }
       additionalProperties: { $ref: common#/$defs/bucket }
       required: ["/"]
 
@@ -19,7 +25,10 @@
       type: object
       properties:
         "/": { $ref: common#/$defs/location }
-      propertyNames: { type: string, format: kebab-case-root-or-absolute-file-path }
+      propertyNames:
+        anyOf:
+          - { type: string, format: root-path }
+          - { type: string, format: kebab-case-absolute-file-path }
       additionalProperties: { $ref: common#/$defs/location }
       required: ["/"]
 

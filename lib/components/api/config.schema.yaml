@@ -16,7 +16,10 @@
     frontend:
       type: object
       properties:
-        location: { type: string, format: kebab-case-root-or-absolute-file-path }
+        location:
+          anyOf:
+            - { type: string, format: root-path }
+            - { type: string, format: kebab-case-absolute-file-path }
         maxParallelCallsPerClient:
           anyOf:
             - type: "null"
