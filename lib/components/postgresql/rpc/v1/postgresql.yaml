@@ -20,7 +20,7 @@ methods:
               anyOf:
                 - type: "null"
                 - { enum: [primary, standby-synchronous, standby-asynchronous] }
-            timeLine: { type: string }
+            timeline: { type: string }
             lsn: { type: string }
           additionalProperties: false
           required: [instanceId, remoteAddress, status]
