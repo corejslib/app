@@ -6,7 +6,6 @@ optionalDependencies:
   - nginxUpstream
 
 config:
-  mode: primary
   clusterName: main
   dataDir: ~
 
@@ -19,24 +18,13 @@ config:
   backup:
     enabled: false
     pitrEnabled: true
-    hostname: postgresql-backup
     maxAge: 1 week
     incrementalBackupInterval: 1 day
 
   replication:
-    port: 5432
     username: replication
     password: ~
-
-    primary:
-      hostname: postgresql
-
-    synchronous:
-      hostname: postgresql-sync
-      numberOfStandbys: 0
-
-    asynchronous:
-      replicateFrom: primary
+    numberOfSynchronousStandbys: 0
 
   settings:
     maintenance_work_mem: 512 MB
