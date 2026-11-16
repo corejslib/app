@@ -1,0 +1,21 @@
+title: PostgreSQL cluster instance
+
+methods:
+  get-status:
+    title: Get instance status
+    connectionType: websockets
+
+  set-status:
+    title: Set instance status
+    connectionType: websockets
+    params:
+      - name: status
+        required: true
+        schema:
+          type: object
+          properties:
+            status: { type: string }
+            role: { type: string }
+            replicationHost: { type: string, format: ip-address }
+          additionalProperties: false
+          required: [status]

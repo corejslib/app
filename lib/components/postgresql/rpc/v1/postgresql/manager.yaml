@@ -1,11 +1,8 @@
-title: PostgreSQL
-
-emits:
-  - postgresql/cluster-update
+title: PostgreSQL cluster manager
 
 methods:
-  set-instance-status:
-    title: Set PostgreSQL cluster node status
+  register-instance:
+    title: Register PostgreSQL cluster inststance
     connectionType: websockets
     params:
       - name: status
