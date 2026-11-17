@@ -1,5 +1,47 @@
 # Changelog
 
+### v1.18.0 (2026-11-17)
+
+**New features:**
+
+- \[MINOR] feat: add PostgreSQL cluster coordination (● [4025748](https://github.com/corejslib/app/commit/4025748); 👬 zdm)
+
+- \[MINOR] feat: add PostgreSQL manager coordination (● [fe9a9f8](https://github.com/corejslib/app/commit/fe9a9f8); 👬 zdm)
+
+- \[MINOR] feat: log application and instance details on startup (● [8005762](https://github.com/corejslib/app/commit/8005762); 👬 zdm)
+
+- \[MINOR] feat: manage primary selection and standby replication (● [628664e](https://github.com/corejslib/app/commit/628664e); 👬 zdm)
+
+    Track instance status and WAL positions to select a primary and reconcile standby roles.
+
+**Bug fixes:**
+
+- \[PATCH] fix: configure PostgreSQL manager dependencies and discovery (● [9ef6dfa](https://github.com/corejslib/app/commit/9ef6dfa); 👬 zdm)
+
+- \[PATCH] fix: defer PostgreSQL upstream setup until app startup completes (● [707579d](https://github.com/corejslib/app/commit/707579d); 👬 zdm)
+
+    Split PostgreSQL startup and post-start initialization; clean up HTTP server logging and correct a comment typo.
+
+- \[PATCH] fix: report instance timeline and resolve status manager (● [f3cff7c](https://github.com/corejslib/app/commit/f3cff7c); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: adjust service startup and cluster wiring (● [c09bfb3](https://github.com/corejslib/app/commit/c09bfb3); 👬 zdm)
+
+    Move HTTP server startup into the start lifecycle and update PostgreSQL cluster wiring.
+
+- \[PATCH] refactor: refactor postgresql cluster (● [9d9183d](https://github.com/corejslib/app/commit/9d9183d), [147745f](https://github.com/corejslib/app/commit/147745f), [084a9a6](https://github.com/corejslib/app/commit/084a9a6), [6772cab](https://github.com/corejslib/app/commit/6772cab), [2d85bb5](https://github.com/corejslib/app/commit/2d85bb5), [5e72524](https://github.com/corejslib/app/commit/5e72524), [098b06e](https://github.com/corejslib/app/commit/098b06e), [4e80baa](https://github.com/corejslib/app/commit/4e80baa), [490574d](https://github.com/corejslib/app/commit/490574d), [37e5ea5](https://github.com/corejslib/app/commit/37e5ea5), [ce52482](https://github.com/corejslib/app/commit/ce52482), [5fd9427](https://github.com/corejslib/app/commit/5fd9427), [cc6919a](https://github.com/corejslib/app/commit/cc6919a), [4ce1b90](https://github.com/corejslib/app/commit/4ce1b90), [94e2cc7](https://github.com/corejslib/app/commit/94e2cc7), [4eb4ed1](https://github.com/corejslib/app/commit/4eb4ed1), [2b97923](https://github.com/corejslib/app/commit/2b97923), [6c31396](https://github.com/corejslib/app/commit/6c31396), [230094c](https://github.com/corejslib/app/commit/230094c), [c14f756](https://github.com/corejslib/app/commit/c14f756), [1de2506](https://github.com/corejslib/app/commit/1de2506), [a48c0f2](https://github.com/corejslib/app/commit/a48c0f2), [9276a99](https://github.com/corejslib/app/commit/9276a99), [76b9b53](https://github.com/corejslib/app/commit/76b9b53), [d224a0f](https://github.com/corejslib/app/commit/d224a0f), [00d4ada](https://github.com/corejslib/app/commit/00d4ada), [b3611aa](https://github.com/corejslib/app/commit/b3611aa), [541ce12](https://github.com/corejslib/app/commit/541ce12), [1df83bc](https://github.com/corejslib/app/commit/1df83bc), [fa5d32e](https://github.com/corejslib/app/commit/fa5d32e), [5a49413](https://github.com/corejslib/app/commit/5a49413), [85b692c](https://github.com/corejslib/app/commit/85b692c), [fe13d93](https://github.com/corejslib/app/commit/fe13d93), [3a32684](https://github.com/corejslib/app/commit/3a32684), [6c368f9](https://github.com/corejslib/app/commit/6c368f9), [6ff6b89](https://github.com/corejslib/app/commit/6ff6b89), [c82c994](https://github.com/corejslib/app/commit/c82c994), [c708a5f](https://github.com/corejslib/app/commit/c708a5f), [a86f597](https://github.com/corejslib/app/commit/a86f597), [3bcca27](https://github.com/corejslib/app/commit/3bcca27), [fe42802](https://github.com/corejslib/app/commit/fe42802), [98b9e37](https://github.com/corejslib/app/commit/98b9e37), [317e5ca](https://github.com/corejslib/app/commit/317e5ca), [9a7f431](https://github.com/corejslib/app/commit/9a7f431), [44ee05b](https://github.com/corejslib/app/commit/44ee05b), [6c2ff89](https://github.com/corejslib/app/commit/6c2ff89), [793d348](https://github.com/corejslib/app/commit/793d348), [0cd3864](https://github.com/corejslib/app/commit/0cd3864), [91ac25a](https://github.com/corejslib/app/commit/91ac25a), [27b626f](https://github.com/corejslib/app/commit/27b626f), [ddcfc69](https://github.com/corejslib/app/commit/ddcfc69), [87baffe](https://github.com/corejslib/app/commit/87baffe), [7d5b23d](https://github.com/corejslib/app/commit/7d5b23d), [64c5514](https://github.com/corejslib/app/commit/64c5514), [cd5d075](https://github.com/corejslib/app/commit/cd5d075), [10c32d4](https://github.com/corejslib/app/commit/10c32d4), [7d41cdd](https://github.com/corejslib/app/commit/7d41cdd), [4ab42ed](https://github.com/corejslib/app/commit/4ab42ed), [7e4b18c](https://github.com/corejslib/app/commit/7e4b18c); 👬 zdm)
+
+- \[PATCH] refactor: reorganize PostgreSQL lifecycle handling (● [40cd201](https://github.com/corejslib/app/commit/40cd201); 👬 zdm)
+
+- \[PATCH] refactor: use let for lifecycle results (● [b0c3d2d](https://github.com/corejslib/app/commit/b0c3d2d); 👬 zdm)
+
+**Other changes:**
+
+- chore: remove debug logging from postgres cluster (● [2e98994](https://github.com/corejslib/app/commit/2e98994); 👬 zdm)
+
+Compare with the previous release: [v1.17.1...v1.18.0](https://github.com/corejslib/app/compare/v1.17.1...v1.18.0)
+
 ### v1.17.1 (2026-11-14)
 
 **Bug fixes:**
