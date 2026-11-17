@@ -1,23 +1,5 @@
 title: PostgreSQL cluster manager
 
 methods:
-  register-instance:
-    title: Register PostgreSQL cluster inststance
-    connectionType: websockets
-    params:
-      - name: status
-        required: true
-        schema:
-          type: object
-          properties:
-            instanceId: { type: string }
-            remoteAddress: { type: string, format: ip-address }
-            status: { enum: [stopped, started] }
-            role:
-              anyOf:
-                - type: "null"
-                - { enum: [primary, standby-synchronous, standby-asynchronous] }
-            timeline: { type: integer }
-            lsn: { type: string }
-          additionalProperties: false
-          required: [instanceId, remoteAddress, status]
+  get-status:
+    title: Get cluster status
