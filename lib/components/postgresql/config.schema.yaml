@@ -51,9 +51,9 @@
     settings:
       type: ["null", object]
 
-    primary: { $reff: role-config }
-    standby-synchronous: { $reff: role-config }
-    standby-asynchronous: { $reff: role-config }
+    primary: { $ref: role-config }
+    standby-synchronous: { $ref: role-config }
+    standby-asynchronous: { $ref: role-config }
 
   additionalProperties: false
   required: [clusterName, dataDir, access, backup, primary, standby-synchronous, standby-asynchronous]
