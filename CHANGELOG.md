@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.18.1 (2026-11-18)
+
+**Bug fixes:**
+
+- \[PATCH] fix: track cluster operations with lifecycle threads (● [d20ee7e](https://github.com/corejslib/app/commit/d20ee7e); 👬 zdm)
+
+Compare with the previous release: [v1.18.0...v1.18.1](https://github.com/corejslib/app/compare/v1.18.0...v1.18.1)
+
 ### v1.18.0 (2026-11-17)
 
 **New features:**
