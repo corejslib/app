@@ -1,5 +1,23 @@
 # Changelog
 
+### v1.20.0 (2026-11-18)
+
+**New features:**
+
+- \[MINOR] feat: listen for PostgreSQL connections on all interfaces (● [1f635fa](https://github.com/corejslib/app/commit/1f635fa); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: track postgres process exit directly (● [ea6fdaf](https://github.com/corejslib/app/commit/ea6fdaf); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: reduce PostgreSQL cluster and manager logging (● [0270ee7](https://github.com/corejslib/app/commit/0270ee7); 👬 zdm)
+
+- \[PATCH] refactor: use the rpc service for PostgreSQL discovery (● [5217b81](https://github.com/corejslib/app/commit/5217b81); 👬 zdm)
+
+Compare with the previous release: [v1.19.0...v1.20.0](https://github.com/corejslib/app/compare/v1.19.0...v1.20.0)
+
 ### v1.19.0 (2026-11-18)
 
 **New features:**
