@@ -40,7 +40,7 @@ config:
     IntervalStyle: iso_8601
 
   primary:
-    exposeSocket: true
+    publishSocket: true
     nginx:
       enabled: false
       port: 5432
@@ -48,7 +48,7 @@ config:
       defaultServer: false # true - to accept non-ssl connections
 
   standby-synchronous:
-    exposeSocket: true
+    publishSocket: true
     nginx:
       enabled: false
       port: 5432
@@ -56,7 +56,7 @@ config:
       defaultServer: false # true - to accept non-ssl connections
 
   standby-asynchronous:
-    exposeSocket: true
+    publishSocket: true
     nginx:
       enabled: false
       port: 5432

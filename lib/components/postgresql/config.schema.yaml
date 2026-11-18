@@ -61,7 +61,7 @@
 - $id: role-config
   type: object
   properties:
-    exposeSocket: { type: boolean }
+    publishSocket: { type: boolean }
     nginx:
       type: object
       properties:
@@ -76,4 +76,4 @@
       additionalProperties: false
       required: [enabled, port, serverNames, defaultServer]
   additionalProperties: false
-  required: [exposeSocket, nginx]
+  required: [publishSocket, nginx]
