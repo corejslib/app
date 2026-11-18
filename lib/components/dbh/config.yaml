@@ -18,7 +18,7 @@ config:
     standbyHostname: service-discovery
     standbyPort: 5432
     standbyServiceDiscoveryAppName: postgresql
-    standbyServiceDiscoveryServiceName: postgresql-synchronous
+    standbyServiceDiscoveryServiceName: postgresql-standby-synchronous
     checkCertificate: true
     maxConnections: 10
     standbyMaxConnections: 10
