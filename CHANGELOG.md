@@ -1,5 +1,47 @@
 # Changelog
 
+### v1.21.0 (2026-11-18)
+
+**New features:**
+
+- \[MINOR] feat: add public PostgreSQL socket directory and register services on cluster start (● [8daf624](https://github.com/corejslib/app/commit/8daf624); 👬 zdm)
+
+- \[MINOR] feat: add role-specific PostgreSQL configuration (● [f086d57](https://github.com/corejslib/app/commit/f086d57); 👬 zdm)
+
+- \[MINOR] feat: configure replication slot limits (● [6c0220e](https://github.com/corejslib/app/commit/6c0220e); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: exit standbys when WAL replication stalls (● [daaaf94](https://github.com/corejslib/app/commit/daaaf94); 👬 zdm)
+
+    Monitor WAL reception and exit the process when replication remains stalled.
+
+- \[PATCH] fix: fall back to base backup when required WAL is unavailable (● [e71ec9d](https://github.com/corejslib/app/commit/e71ec9d); 👬 zdm)
+
+    Recreate invalid replication slots and remove stale local slots after rewind.
+
+- \[PATCH] fix: fix log (● [b5770fa](https://github.com/corejslib/app/commit/b5770fa); 👬 zdm)
+
+- \[PATCH] fix: fix postgresql config (● [89df2c5](https://github.com/corejslib/app/commit/89df2c5b), [2152941](https://github.com/corejslib/app/commit/2152941), [de0933d](https://github.com/corejslib/app/commit/de0933d), [9ec7964](https://github.com/corejslib/app/commit/9ec7964); 👬 zdm)
+
+- \[PATCH] fix: fix postgresql nginx (● [297c3f5](https://github.com/corejslib/app/commit/297c3f5); 👬 zdm)
+
+- \[PATCH] fix: fix postgresql publish (● [01f60f9](https://github.com/corejslib/app/commit/01f60f9); 👬 zdm)
+
+- \[PATCH] fix: fix postgresql roles names (● [c290a93](https://github.com/corejslib/app/commit/c290a93), [9ddd82c](https://github.com/corejslib/app/commit/9ddd82c); 👬 zdm)
+
+- \[PATCH] fix: rename exposeSocket to publishSocket (● [920baad](https://github.com/corejslib/app/commit/920baad); 👬 zdm)
+
+- \[PATCH] fix: rename exposeSocket to publishUnixSocket (● [e765ac7](https://github.com/corejslib/app/commit/e765ac7); 👬 zdm)
+
+- \[PATCH] fix: retain replication auto configuration (● [f06e1fd](https://github.com/corejslib/app/commit/f06e1fd); 👬 zdm)
+
+**Other changes:**
+
+- docs: remove commented recovery-conf option (● [5b93510](https://github.com/corejslib/app/commit/5b93510); 👬 zdm)
+
+Compare with the previous release: [v1.20.0...v1.21.0](https://github.com/corejslib/app/compare/v1.20.0...v1.21.0)
+
 ### v1.20.0 (2026-11-18)
 
 **New features:**
