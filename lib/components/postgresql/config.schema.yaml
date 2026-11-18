@@ -25,7 +25,6 @@
           address: { type: ["null", string] }
           auth-method: { enum: [trust, reject, scram-sha-256, md5, password, gss, sspi, ident, peer, ldap, radius, cert, pam, bsd] }
           auth-options: { type: ["null", string] }
-
         additionalProperties: false
         required: [host, database, user, address, auth-method, auth-options]
 
@@ -36,7 +35,6 @@
         pitrEnabled: { type: boolean }
         maxAge: { type: string, format: interval }
         incrementalBackupInterval: { type: string, format: interval }
-
       additionalProperties: false
       required: [enabled, pitrEnabled, maxAge, incrementalBackupInterval]
 
@@ -44,7 +42,7 @@
       type: object
       properties:
         username: { type: string }
-        password: { type: ["null", string] }
+        password: { type: string }
         numberOfSynchronousStandbys: { type: integer }
 
       additionalProperties: false
@@ -53,6 +51,17 @@
     settings:
       type: ["null", object]
 
+    primary: { $reff: role-config }
+    standby-synchronous: { $reff: role-config }
+    standby-asynchronous: { $reff: role-config }
+
+  additionalProperties: false
+  required: [clusterName, dataDir, access, backup, primary, standby-synchronous, standby-asynchronous]
+
+- $id: role-config
+  type: object
+  properties:
+    exposeSocket: { type: boolean }
     nginx:
       type: object
       properties:
@@ -64,9 +73,7 @@
             - { type: string, format: nginx-server-name }
             - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
         defaultServer: { type: boolean }
-
       additionalProperties: false
       required: [enabled, port, serverNames, defaultServer]
-
   additionalProperties: false
-  required: [clusterName, dataDir, access, backup, nginx]
+  required: [exposeSocket, nginx]

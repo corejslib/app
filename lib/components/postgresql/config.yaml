@@ -39,8 +39,26 @@ config:
 
     IntervalStyle: iso_8601
 
-  nginx:
-    enabled: false
-    port: 5432
-    serverNames: ~
-    defaultServer: false # true - to accept non-ssl connections
+  primary:
+    exposeSocket: true
+    nginx:
+      enabled: false
+      port: 5432
+      serverNames: ~
+      defaultServer: false # true - to accept non-ssl connections
+
+  standby-synchronous:
+    exposeSocket: true
+    nginx:
+      enabled: false
+      port: 5432
+      serverNames: ~
+      defaultServer: false # true - to accept non-ssl connections
+
+  standby-asynchronous:
+    exposeSocket: true
+    nginx:
+      enabled: false
+      port: 5432
+      serverNames: ~
+      defaultServer: false # true - to accept non-ssl connections
