@@ -24,7 +24,7 @@ methods:
               required: [role]
             - type: object
               properties:
-                role: { enum: [standby-synchronous, standby-asynchronous] }
+                role: { enum: [synchronous, asynchronous] }
                 replicationHostname: { type: string, format: ip-address }
               additionalProperties: false
               required: [role, replicationHostname]
