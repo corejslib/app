@@ -30,6 +30,10 @@ config:
     maintenance_work_mem: 512 MB
     shared_preload_libraries: ~ # [ timescaledb ]
 
+    # replication slots
+    max_slot_wal_keep_size: 10GB
+    idle_replication_slot_timeout: 1d
+
     # log
     log_checkpoints: false
     log_line_prefix: "[%t] "
