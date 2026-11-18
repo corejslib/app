@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.19.0 (2026-11-18)
+
+**New features:**
+
+- \[MINOR] feat: rename PostgreSQL standby roles (● [eb0f84a](https://github.com/corejslib/app/commit/eb0f84a); 👬 zdm)
+
+Compare with the previous release: [v1.18.1...v1.19.0](https://github.com/corejslib/app/compare/v1.18.1...v1.19.0)
+
 ### v1.18.1 (2026-11-18)
 
 **Bug fixes:**
