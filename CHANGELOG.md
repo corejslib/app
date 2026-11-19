@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.21.3 (2026-11-19)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix nginx error log (● [dfe3efc](https://github.com/corejslib/app/commit/dfe3efc), [0d1b3a4](https://github.com/corejslib/app/commit/0d1b3a4); 👬 zdm)
+
+- \[PATCH] fix: fix nginx hash size (● [d897551](https://github.com/corejslib/app/commit/d897551); 👬 zdm)
+
+- \[PATCH] fix: fix nginx upstreams add (● [9288551](https://github.com/corejslib/app/commit/9288551); 👬 zdm)
+
+Compare with the previous release: [v1.21.2...v1.21.3](https://github.com/corejslib/app/compare/v1.21.2...v1.21.3)
+
 ### v1.21.2 (2026-11-19)
 
 **Bug fixes:**
