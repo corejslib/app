@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.21.2 (2026-11-19)
+
+**Bug fixes:**
+
+- \[PATCH] fix: bound PostgreSQL monitoring connection waits (● [2972689](https://github.com/corejslib/app/commit/2972689); 👬 zdm)
+
+    Wait up to 30 seconds for connections and check every 10 seconds.
+
+Compare with the previous release: [v1.21.1...v1.21.2](https://github.com/corejslib/app/compare/v1.21.1...v1.21.2)
+
 ### v1.21.1 (2026-11-19)
 
 **Bug fixes:**
