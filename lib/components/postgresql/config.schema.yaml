@@ -1,9 +1,3 @@
-- $id: env
-  type: object
-  properties:
-    POSTGRESQL_VERSION: { type: integer }
-  required: [POSTGRESQL_VERSION]
-
 - $id: public-config
   type: object
   properties: {}
@@ -12,6 +6,7 @@
   type: object
   properties:
     clusterName: { type: string }
+    clusterVersion: { type: integer, minimum: 18 }
     dataDir: { type: ["null", string] }
 
     access:
@@ -56,7 +51,7 @@
     standby-asynchronous: { $ref: role-config }
 
   additionalProperties: false
-  required: [clusterName, dataDir, access, backup, primary, standby-synchronous, standby-asynchronous]
+  required: [clusterName, clusterVersion, dataDir, access, backup, primary, standby-synchronous, standby-asynchronous]
 
 - $id: role-config
   type: object
