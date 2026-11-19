@@ -1,5 +1,21 @@
 # Changelog
 
+### v1.22.0 (2026-11-19)
+
+**New features:**
+
+- \[MINOR] feat: add automatic PostgreSQL cluster upgrades (● [3e27a31](https://github.com/corejslib/app/commit/3e27a31); 👬 zdm)
+
+- \[MINOR] feat: configure PostgreSQL cluster version explicitly (● [706b037](https://github.com/corejslib/app/commit/706b037); 👬 zdm)
+
+- \[MINOR] feat: handle PostgreSQL upgrades during recovery (● [6fe4956](https://github.com/corejslib/app/commit/6fe4956); 👬 zdm)
+
+**Other changes:**
+
+- docs: remove obsolete cluster upgrade comment (● [99b5343](https://github.com/corejslib/app/commit/99b5343); 👬 zdm)
+
+Compare with the previous release: [v1.21.3...v1.22.0](https://github.com/corejslib/app/compare/v1.21.3...v1.22.0)
+
 ### v1.21.3 (2026-11-19)
 
 **Bug fixes:**
