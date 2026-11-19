@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.21.1 (2026-11-19)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix postgresql cluster monitoring (● [28b931d](https://github.com/corejslib/app/commit/28b931d), [9aa7889](https://github.com/corejslib/app/commit/9aa7889), [d498908](https://github.com/corejslib/app/commit/d498908), [3d0b9d7](https://github.com/corejslib/app/commit/3d0b9d7), [215a804](https://github.com/corejslib/app/commit/215a804), [0679559](https://github.com/corejslib/app/commit/0679559), [6362d43](https://github.com/corejslib/app/commit/6362d43), [04e7aae](https://github.com/corejslib/app/commit/04e7aae), [c0ebe4c](https://github.com/corejslib/app/commit/c0ebe4c), [8c413e5](https://github.com/corejslib/app/commit/8c413e5); 👬 zdm)
+
+Compare with the previous release: [v1.21.0...v1.21.1](https://github.com/corejslib/app/compare/v1.21.0...v1.21.1)
+
 ### v1.21.0 (2026-11-18)
 
 **New features:**
