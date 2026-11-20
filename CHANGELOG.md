@@ -1,5 +1,21 @@
 # Changelog
 
+### v1.24.0 (2026-11-20)
+
+**New features:**
+
+- \[MINOR] feat: add support for api module .init() (● [62841b8](https://github.com/corejslib/app/commit/62841b8), [8840ec0](https://github.com/corejslib/app/commit/8840ec0), [90f3f2a](https://github.com/corejslib/app/commit/90f3f2a), [825aba6](https://github.com/corejslib/app/commit/825aba6), [4206fd0](https://github.com/corejslib/app/commit/4206fd0); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: rename crypto api (● [ba73f3f](https://github.com/corejslib/app/commit/ba73f3f); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: move postgresql component to app (● [dd52c7d](https://github.com/corejslib/app/commit/dd52c7d); 👬 zdm)
+
+Compare with the previous release: [v1.23.0...v1.24.0](https://github.com/corejslib/app/compare/v1.23.0...v1.24.0)
+
 ### v1.23.0 (2026-11-20)
 
 **New features:**
