@@ -16,7 +16,7 @@ config:
   webSocketCompress: false
 
   nginx:
-    enabled: true
+    enabled: false
     port: 80
     serverNames: ~
 
