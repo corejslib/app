@@ -32,3 +32,15 @@ methods:
   stop:
     title: Stop cluster
     connectionType: websockets
+
+  delete-cluster-old-versions:
+    title: Delete cluster old versions
+    params:
+      - name: options
+        required: true
+        schema:
+          type: object
+          properties:
+            password: { type: string }
+          additionalProperties: false
+          required: [password]
