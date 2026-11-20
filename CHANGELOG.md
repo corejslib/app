@@ -1,5 +1,45 @@
 # Changelog
 
+### v1.23.0 (2026-11-20)
+
+**New features:**
+
+- \[MINOR] feat: add authenticated old-version cleanup endpoint (● [9dc1141](https://github.com/corejslib/app/commit/9dc1141); 👬 zdm)
+
+- \[MINOR] feat: add cluster old-version deletion API (● [2a9022f](https://github.com/corejslib/app/commit/2a9022f); 👬 zdm)
+
+- \[MINOR] feat: implement deletion of old cluster versions across instances (● [ee646ef](https://github.com/corejslib/app/commit/ee646ef); 👬 zdm)
+
+- \[MINOR] feat: implement deletion of old postgresql cluster versions (● [8f33743](https://github.com/corejslib/app/commit/8f33743); 👬 zdm)
+
+- \[MINOR] feat: support configurable PostgreSQL packages (● [41f04c3](https://github.com/corejslib/app/commit/41f04c3); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: align PostgreSQL instance RPC paths (● [b5056b9](https://github.com/corejslib/app/commit/b5056b9); 👬 zdm)
+
+- \[PATCH] fix: await cluster version globbing (● [5d7563e](https://github.com/corejslib/app/commit/5d7563e); 👬 zdm)
+
+- \[PATCH] fix: pluralize old cluster versions RPC name (● [b6ef7cc](https://github.com/corejslib/app/commit/b6ef7cc); 👬 zdm)
+
+- \[PATCH] fix: return cluster cleanup results directly (● [742ecb2](https://github.com/corejslib/app/commit/742ecb2); 👬 zdm)
+
+    Remove the redundant 200 response wrapper from both cluster cleanup RPCs.
+
+- \[PATCH] fix: return PostgreSQL status directly (● [62beed9](https://github.com/corejslib/app/commit/62beed9); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: use default stdio handling for apt-get calls (● [b0c7ab0](https://github.com/corejslib/app/commit/b0c7ab0); 👬 zdm)
+
+**Other changes:**
+
+- build: disable nginx in HTTP server configs (● [90c67a7](https://github.com/corejslib/app/commit/90c67a7); 👬 zdm)
+
+- docs: remove outdated instance status comment (● [4f22384](https://github.com/corejslib/app/commit/4f22384); 👬 zdm)
+
+Compare with the previous release: [v1.22.0...v1.23.0](https://github.com/corejslib/app/compare/v1.22.0...v1.23.0)
+
 ### v1.22.0 (2026-11-19)
 
 **New features:**
