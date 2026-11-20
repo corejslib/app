@@ -50,8 +50,13 @@
     standby-synchronous: { $ref: role-config }
     standby-asynchronous: { $ref: role-config }
 
+    packages:
+      type: array
+      items:
+        type: string
+
   additionalProperties: false
-  required: [clusterName, clusterVersion, dataDir, access, backup, primary, standby-synchronous, standby-asynchronous]
+  required: [clusterName, clusterVersion, dataDir, access, backup, primary, standby-synchronous, standby-asynchronous, packages]
 
 - $id: role-config
   type: object

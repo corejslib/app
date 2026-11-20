@@ -67,3 +67,7 @@ config:
       port: 5432
       serverNames: ~
       defaultServer: false # true - to accept non-ssl connections
+
+  packages:
+    - postgresql-<%- postgresqlVersion %>
+    - postgresql-<%- postgresqlVersion %>-postgis-3
