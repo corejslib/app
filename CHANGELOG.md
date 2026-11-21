@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.24.2 (2026-11-21)
+
+**Code refactoring**:
+
+- \[PATCH] refactor: simplify application lifecycle and configuration (● [76f3369](https://github.com/corejslib/app/commit/76f3369); 👬 zdm)
+
+Compare with the previous release: [v1.24.1...v1.24.2](https://github.com/corejslib/app/compare/v1.24.1...v1.24.2)
+
 ### v1.24.1 (2026-11-21)
 
 **Code refactoring**:
