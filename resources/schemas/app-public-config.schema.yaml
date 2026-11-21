@@ -19,8 +19,6 @@ properties:
                       minProperties: 1
                       additionalProperties: { type: object }
 
-                config: { type: object }
-
               minProperties: 1
               additionalProperties: false
 
@@ -33,8 +31,6 @@ properties:
         propertyNames: { type: string, format: camel-case-strict }
         additionalProperties:
           type: ["null", object]
-
-  config: { type: ["null", object] }
 
 additionalProperties: false
 required: []
