@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.24.1 (2026-11-21)
+
+**Code refactoring**:
+
+- \[PATCH] refactor: remove unused thread start hooks (● [a6a51e7](https://github.com/corejslib/app/commit/a6a51e7); 👬 zdm)
+
+Compare with the previous release: [v1.24.0...v1.24.1](https://github.com/corejslib/app/compare/v1.24.0...v1.24.1)
+
 ### v1.24.0 (2026-11-20)
 
 **New features:**
