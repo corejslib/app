@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.24.5 (2026-11-22)
+
+**Bug fixes**:
+
+- \[PATCH] fix: await cache clearing and log completion (● [1cbfe9f](https://github.com/corejslib/app/commit/1cbfe9f); 👬 zdm)
+
+Compare with the previous release: [v1.24.4...v1.24.5](https://github.com/corejslib/app/compare/v1.24.4...v1.24.5)
+
 ### v1.24.4 (2026-11-22)
 
 **Bug fixes**:
