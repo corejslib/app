@@ -19,17 +19,13 @@
                 }, 300);
 
                 if (!window.location.search) {
-                    window.addEventListener(
-                        "message",
-                        e => {
-                            if (e.source !== window.opener) return;
+                    window.addEventListener("message", e => {
+                        if (e.source !== window.opener) return;
 
-                            if (!e.data?.providerUrl) return window.close();
+                        if (!e.data?.providerUrl) return window.close();
 
-                            window.location.href = e.data.providerUrl;
-                        },
-                        { once: true }
-                    );
+                        window.location.href = e.data.providerUrl;
+                    });
 
                     window.opener.postMessage({ action: "begin" });
                 } else {
