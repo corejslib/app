@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.24.4 (2026-11-22)
+
+**Bug fixes**:
+
+- \[PATCH] fix: clear nginx cache recursively (● [906991d](https://github.com/corejslib/app/commit/906991d); 👬 zdm)
+
+Compare with the previous release: [v1.24.3...v1.24.4](https://github.com/corejslib/app/compare/v1.24.3...v1.24.4)
+
 ### v1.24.3 (2026-11-22)
 
 **Bug fixes**:
