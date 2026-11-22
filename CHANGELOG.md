@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.24.7 (2026-11-22)
+
+**Other changes**:
+
+- style: use warnings for unregistered websocket events (● [facb868](https://github.com/corejslib/app/commit/facb868); 👬 zdm)
+
+Compare with the previous release: [v1.24.6...v1.24.7](https://github.com/corejslib/app/compare/v1.24.6...v1.24.7)
+
 ### v1.24.6 (2026-11-22)
 
 **Other changes**:
