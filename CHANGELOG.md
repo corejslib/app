@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.24.6 (2026-11-22)
+
+**Other changes**:
+
+- style: capitalize nginx reload log message (● [85b0459](https://github.com/corejslib/app/commit/85b0459); 👬 zdm)
+
+Compare with the previous release: [v1.24.5...v1.24.6](https://github.com/corejslib/app/compare/v1.24.5...v1.24.6)
+
 ### v1.24.5 (2026-11-22)
 
 **Bug fixes**:
