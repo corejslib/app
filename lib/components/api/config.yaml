@@ -24,7 +24,7 @@ templates:
 
     ${ data.url }
 
-    This link is valid until ${ data.tokenExpires.toISOString() }.
+    This link is valid until ${ data.tokenExpires.toString() }.
 
     If you received this email by mistake just ignore it.
     ` ) %>
@@ -48,7 +48,7 @@ templates:
 
     ${ data.url }
 
-    This link is valid until ${ data.tokenExpires.toISOString() }.
+    This link is valid until ${ data.tokenExpires.toString() }.
 
     If you received this email by mistake just ignore it.
     ` ) %>
@@ -61,7 +61,7 @@ templates:
 
     ${ data.url }
 
-    This link is valid until ${ data.tokenExpires.toISOString() }.
+    This link is valid until ${ data.tokenExpires.toString() }.
 
     If you didn't ask for password reset and received this email by mistake just ignore it.
     ` ) %>
