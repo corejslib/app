@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.24.3 (2026-11-22)
+
+**Bug fixes**:
+
+- \[PATCH] fix: use token expiry string in email templates (● [603c52a](https://github.com/corejslib/app/commit/603c52a); 👬 zdm)
+
+Compare with the previous release: [v1.24.2...v1.24.3](https://github.com/corejslib/app/compare/v1.24.2...v1.24.3)
+
 ### v1.24.2 (2026-11-21)
 
 **Code refactoring**:
