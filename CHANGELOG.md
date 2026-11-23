@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.24.8 (2026-11-23)
+
+**Bug fixes**:
+
+- \[PATCH] fix: prevent oauth popup errors after opener closes (● [5b0c447](https://github.com/corejslib/app/commit/5b0c447); 👬 zdm)
+
+**Other changes**:
+
+- style: simplify oauth message handler formatting (● [a1d3566](https://github.com/corejslib/app/commit/a1d3566); 👬 zdm)
+
+Compare with the previous release: [v1.24.7...v1.24.8](https://github.com/corejslib/app/compare/v1.24.7...v1.24.8)
+
 ### v1.24.7 (2026-11-22)
 
 **Other changes**:
