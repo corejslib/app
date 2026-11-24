@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.24.9 (2026-11-24)
+
+**Code refactoring**:
+
+- \[PATCH] refactor: rename app run command to start (● [c4a3e2c](https://github.com/corejslib/app/commit/c4a3e2c); 👬 zdm)
+
+Compare with the previous release: [v1.24.8...v1.24.9](https://github.com/corejslib/app/compare/v1.24.8...v1.24.9)
+
 ### v1.24.8 (2026-11-23)
 
 **Bug fixes**:
