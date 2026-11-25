@@ -54,7 +54,7 @@ methods:
                         port: { type: integer, format: ip-port }
                         type: { enum: [http, tcp, udp] }
                         useProxyProtocol: { type: boolean }
-                        useSsl: { type: boolean }
+                        useTls: { type: boolean }
                         maxBodySize: { type: string, format: digital-size }
                         cacheEnabled: { type: boolean }
                         cacheBypass: { type: boolean }
