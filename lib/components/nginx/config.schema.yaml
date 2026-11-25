@@ -37,9 +37,9 @@
         - const: "unix:"
         - { type: string, format: ip-address+port }
 
-    sslProtocols: { type: string }
-    sslEcdhCurve: { type: string }
-    sslCiphers: { type: ["null", string] }
+    tlsProtocols: { type: string }
+    tlsEcdhCurve: { type: string }
+    tlsCiphers: { type: ["null", string] }
 
     tcpListenOptions: { type: string }
     udpListenOptions: { type: string }
@@ -59,9 +59,9 @@
 
     - localAddress
 
-    - sslProtocols
-    - sslEcdhCurve
-    - sslCiphers
+    - tlsProtocols
+    - tlsEcdhCurve
+    - tlsCiphers
 
     - tcpListenOptions
     - udpListenOptions
