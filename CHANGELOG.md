@@ -1,5 +1,37 @@
 # Changelog
 
+### v1.25.0 (2026-11-26)
+
+**New features**:
+
+- \[MINOR] feat: add ALPN-aware nginx stream routing (● [b715d8c](https://github.com/corejslib/app/commit/b715d8c); 👬 zdm)
+
+**Bug fixes**:
+
+- \[PATCH] fix: fix cli options (● [934667b](https://github.com/corejslib/app/commit/934667b); 👬 zdm)
+
+- \[PATCH] fix: improve nginx startup and configuration handling (● [8ab5fe9](https://github.com/corejslib/app/commit/8ab5fe9); 👬 zdm)
+
+- \[PATCH] fix: validate HTTPS redirect ports (● [c71dc3c](https://github.com/corejslib/app/commit/c71dc3c); 👬 zdm)
+
+**Code refactoring**:
+
+- \[PATCH] refactor: deduplicate nginx config file writing (● [e5f869e](https://github.com/corejslib/app/commit/e5f869e); 👬 zdm)
+
+- \[PATCH] refactor: rename nginx ssl configuration properties to tls (● [29a5b15](https://github.com/corejslib/app/commit/29a5b15); 👬 zdm)
+
+- \[PATCH] refactor: rename ssl options to tls terminology (● [ab02c97](https://github.com/corejslib/app/commit/ab02c97); 👬 zdm)
+
+- \[PATCH] refactor: rename ssl terminology to tls (● [77186c5](https://github.com/corejslib/app/commit/77186c5); 👬 zdm)
+
+- \[PATCH] refactor: reuse shared port validation (● [7868d53](https://github.com/corejslib/app/commit/7868d53); 👬 zdm)
+
+**Other changes**:
+
+- style: add tls section comments (● [4229859](https://github.com/corejslib/app/commit/4229859); 👬 zdm)
+
+Compare with the previous release: [v1.24.9...v1.25.0](https://github.com/corejslib/app/compare/v1.24.9...v1.25.0)
+
 ### v1.24.9 (2026-11-24)
 
 **Code refactoring**:
