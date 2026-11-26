@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.25.1 (2026-11-26)
+
+**Bug fixes**:
+
+- \[PATCH] fix: rename ssl to tls (● [a5724af](https://github.com/corejslib/app/commit/a5724af); 👬 zdm)
+
+Compare with the previous release: [v1.25.0...v1.25.1](https://github.com/corejslib/app/compare/v1.25.0...v1.25.1)
+
 ### v1.25.0 (2026-11-26)
 
 **New features**:
