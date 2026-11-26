@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.25.2 (2026-11-26)
+
+**Bug fixes**:
+
+- \[PATCH] fix: replace nginx tls directive with ssl (● [bbd9173](https://github.com/corejslib/app/commit/bbd9173); 👬 zdm)
+
+Compare with the previous release: [v1.25.1...v1.25.2](https://github.com/corejslib/app/compare/v1.25.1...v1.25.2)
+
 ### v1.25.1 (2026-11-26)
 
 **Bug fixes**:
