@@ -19,7 +19,7 @@ config:
   setRealIpFrom: [local, private]
   realIpHeader: x-real-ip
 
-  localAddress: 127.0.0.5:33000
+  localAddress: "unix:" # 127.0.0.5:33000
 
   # DOCS: https://ssl-config.mozilla.org/#server=nginx&config=intermediate
   # intermediate, nginx: 1.30.3, openssl: 3.5.5
