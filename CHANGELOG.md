@@ -1,5 +1,25 @@
 # Changelog
 
+### v1.25.3 (2026-11-27)
+
+**Bug fixes**:
+
+- \[PATCH] fix: support ALPN protocols on nginx default servers (● [2a384a5](https://github.com/corejslib/app/commit/2a384a5); 👬 zdm)
+
+- \[PATCH] fix: support unix socket listen addresses in nginx proxy (● [edfc010](https://github.com/corejslib/app/commit/edfc010); 👬 zdm)
+
+**Code refactoring**:
+
+- \[PATCH] refactor: remove hardcoded nginx proxy test configuration (● [7580094](https://github.com/corejslib/app/commit/7580094); 👬 zdm)
+
+- \[PATCH] refactor: reuse shared ALPN protocol validation (● [22c0a0e](https://github.com/corejslib/app/commit/22c0a0e); 👬 zdm)
+
+**Other changes**:
+
+- docs: clarify nginx 1.32 enablement comment (● [8a91214](https://github.com/corejslib/app/commit/8a91214); 👬 zdm)
+
+Compare with the previous release: [v1.25.2...v1.25.3](https://github.com/corejslib/app/compare/v1.25.2...v1.25.3)
+
 ### v1.25.2 (2026-11-26)
 
 **Bug fixes**:
