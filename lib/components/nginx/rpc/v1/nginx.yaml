@@ -55,7 +55,7 @@ methods:
                         type: { enum: [http, tcp, udp] }
                         useProxyProtocol: { type: boolean }
                         useTls: { type: boolean }
-                        alpnProtocol: { type: string }
+                        alpnProtocol: { type: string, format: alpn-protocol-name }
                         maxBodySize: { type: string, format: digital-size }
                         cacheEnabled: { type: boolean }
                         cacheBypass: { type: boolean }
