@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.26.1 (2026-11-28)
+
+**Bug fixes**:
+
+- \[PATCH] fix: remove deferred from unix tcp listen options (● [4ce7bde](https://github.com/corejslib/app/commit/4ce7bde); 👬 zdm)
+
+Compare with the previous release: [v1.26.0...v1.26.1](https://github.com/corejslib/app/compare/v1.26.0...v1.26.1)
+
 ### v1.26.0 (2026-11-28)
 
 **New features**:
