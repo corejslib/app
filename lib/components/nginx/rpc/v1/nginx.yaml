@@ -38,7 +38,7 @@ methods:
                 type: object
                 properties:
                   upstreamPort: { type: integer, format: ip-port }
-                  upstreamProxyProtocol: { type: boolean }
+                  upstreamProxyProtocol: { enum: [false, v1, v2] }
                   serverNames:
                     anyOf:
                       - type: "null"
