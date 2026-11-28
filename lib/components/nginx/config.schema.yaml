@@ -43,6 +43,8 @@
 
     tcpListenOptions: { type: string }
     udpListenOptions: { type: string }
+    unixTcpListenOptions: { type: string }
+    unixUdpListenOptions: { type: string }
 
     compressMimeTypes: { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
 
@@ -65,5 +67,7 @@
 
     - tcpListenOptions
     - udpListenOptions
+    - unixTcpListenOptions
+    - unixUdpListenOptions
 
     - compressMimeTypes

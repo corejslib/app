@@ -29,6 +29,8 @@ config:
 
   tcpListenOptions: reuseport multipath deferred fastopen=64 so_keepalive=on
   udpListenOptions: reuseport
+  unixTcpListenOptions: deferred so_keepalive=on
+  unixUdpListenOptions: ""
 
   compressMimeTypes:
     - application/javascript
