@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.26.0 (2026-11-28)
+
+**New features**:
+
+- \[MINOR] feat: add Unix socket listen options (● [355ee56](https://github.com/corejslib/app/commit/355ee56); 👬 zdm)
+
+Compare with the previous release: [v1.25.3...v1.26.0](https://github.com/corejslib/app/compare/v1.25.3...v1.26.0)
+
 ### v1.25.3 (2026-11-27)
 
 **Bug fixes**:
