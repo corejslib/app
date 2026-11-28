@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.27.1 (2026-11-28)
+
+**Bug fixes**:
+
+- \[PATCH] fix: correct nginx proxy protocol template conditional (● [5594aec](https://github.com/corejslib/app/commit/5594aec); 👬 zdm)
+
+Compare with the previous release: [v1.27.0...v1.27.1](https://github.com/corejslib/app/compare/v1.27.0...v1.27.1)
+
 ### v1.27.0 (2026-11-28)
 
 **New features**:
