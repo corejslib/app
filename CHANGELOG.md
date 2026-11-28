@@ -1,5 +1,19 @@
 # Changelog
 
+### v1.27.0 (2026-11-28)
+
+**New features**:
+
+- \[MINOR] feat: add proxy server proxy protocol v2 support (● [61d2612](https://github.com/corejslib/app/commit/61d2612); 👬 zdm)
+
+- \[MINOR] feat: app nginx proxy protocol v2 supporrt (● [894baf1](https://github.com/corejslib/app/commit/894baf1); 👬 zdm)
+
+**Other changes**:
+
+- chore: update nginx templates layout (● [9e24302](https://github.com/corejslib/app/commit/9e24302), [2e5bc65](https://github.com/corejslib/app/commit/2e5bc65), [23be653](https://github.com/corejslib/app/commit/23be653); 👬 zdm)
+
+Compare with the previous release: [v1.26.1...v1.27.0](https://github.com/corejslib/app/compare/v1.26.1...v1.27.0)
+
 ### v1.26.1 (2026-11-28)
 
 **Bug fixes**:
